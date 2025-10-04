@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A4B707F-B568-3D29-C1FE-C4316DB0603C" name="Posts_Hashtags">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:21:35 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hashtags_id" id="1D865193-CDBF-C1B8-5383-98A5A86EBA16">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:21:59 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24DB2602-D369-D519-A62E-9E8A3EB6B60F" referredColumn="D4D8A567-045A-8442-F542-4AD04DAF03D9"/>
+</associations>
+</Column>
+<Column name="Posts_id" id="0D0D7B21-F71F-6B0C-CD36-077FA5D1D597">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:22:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A0F8722-89B4-85EB-27CC-7611892C4499" referredColumn="0C13A22E-107B-B6CB-C02B-C8E26108241C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1779603F-1657-06D3-27FD-D5DD44FB0B80" name="Posts_Hashtags_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:22:26 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D865193-CDBF-C1B8-5383-98A5A86EBA16"/>
+<colUsage columnID="0D0D7B21-F71F-6B0C-CD36-077FA5D1D597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD039856-345E-C293-A419-B2721B16B9D9" name="Posts_Hashtags_Hashtags_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:21:59 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D865193-CDBF-C1B8-5383-98A5A86EBA16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24277D0E-A4A9-D25C-FB6E-0F6446721884" name="Posts_Hashtags_Posts_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-04 17:22:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D0D7B21-F71F-6B0C-CD36-077FA5D1D597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
