@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15164DF3-B735-34DB-12B1-B2745A4F9B02" name="Post_visibility">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:16:14 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A42A039C-D115-89AA-BD36-C796FA5EDF99">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:17:31 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="3A56A69E-55B3-6240-EDD6-905377BB7AFE">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:17:31 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posts_id" id="40A7C02A-28D3-1556-DDE0-A9D4F93CEF47">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:28:24 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3061A4E4-5CE5-062B-6C56-442A02037584" referredColumn="0C13A22E-107B-B6CB-C02B-C8E26108241C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C67479CB-42CE-6317-CD12-EAC7C651DB74" name="Post_visibility_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:17:31 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A42A039C-D115-89AA-BD36-C796FA5EDF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB45B053-0F02-A453-1E98-2025A7809EFA" name="Post_visibility_Posts_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:28:24 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40A7C02A-28D3-1556-DDE0-A9D4F93CEF47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

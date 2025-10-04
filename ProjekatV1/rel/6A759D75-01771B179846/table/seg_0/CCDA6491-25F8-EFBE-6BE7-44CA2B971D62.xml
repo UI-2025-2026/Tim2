@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCDA6491-25F8-EFBE-6BE7-44CA2B971D62" name="Profiles">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:44:20 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="393C1C49-0DB8-12B0-6328-AC264AA062FD">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:44:51 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="biography" id="59CF03AB-8CE9-89F1-3A64-8C3830ED571C">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:47:55 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profile_picture" id="BC92A34D-C831-98C2-4DFD-69C15F4C51B6">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:47:55 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="A023CDD8-99E0-3D15-B1B1-0951D5491275">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:47:55 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="website" id="D517068C-0C81-E69C-F943-DB9B8F9C1231">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:47:55 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_updated" id="5A45C7C6-E8A8-34F3-6FD2-E63167A2A471">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:50:32 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="07FA5382-2D51-4702-C712-7E5555CFACAB">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:40:33 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AFF89C4-C97B-467B-C425-4BCA2F6AE074" referredColumn="9584DE99-DDCB-FCD8-C81A-AA885E0BB1A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45F079FE-62A2-116D-0F2D-BF00FA063BA5" name="Profiles_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:44:51 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="393C1C49-0DB8-12B0-6328-AC264AA062FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0D37FE-4E82-172A-F6BA-4F500B46A7AA" name="Profiles_Users_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:40:33 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07FA5382-2D51-4702-C712-7E5555CFACAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

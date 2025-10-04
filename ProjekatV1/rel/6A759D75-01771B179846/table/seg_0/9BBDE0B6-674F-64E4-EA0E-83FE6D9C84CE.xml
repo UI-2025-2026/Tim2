@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BBDE0B6-674F-64E4-EA0E-83FE6D9C84CE" name="Messages">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:08:47 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1F88F428-12B0-3DDA-E8B3-6575CB59D183">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:13:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="28EA5598-EB8E-2245-82C1-9B626D753A58">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:13:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sent_at" id="78102FB3-306F-AFF0-F546-38612F21D082">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:13:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="569F3359-0D49-E573-DCBB-9067C9ABD7CE">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:36:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD0E65DF-8BB0-5205-0318-EFE415C90C3F" referredColumn="9584DE99-DDCB-FCD8-C81A-AA885E0BB1A3"/>
+</associations>
+</Column>
+<Column name="Message_status_id" id="14CD3B33-4526-D353-C055-818B75706224">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:38:42 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E653A370-32A7-FE69-9D13-B682C5DECC92" referredColumn="1DAB5F32-41D9-B648-1D47-90A6F580879E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09B2D431-C01B-7D80-1B75-4848D1CB0E06" name="Messages_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:13:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F88F428-12B0-3DDA-E8B3-6575CB59D183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="212EDF11-A1D2-2C06-EDBD-BD9155119D83" name="Messages_Users_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:36:03 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569F3359-0D49-E573-DCBB-9067C9ABD7CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1F9096B-21C2-0293-7B18-394F53D01DCA" name="Messages_Message_status_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:38:42 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14CD3B33-4526-D353-C055-818B75706224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

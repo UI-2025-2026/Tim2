@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="987A8AC8-E361-DA23-2ABF-541092B3EFC1" name="Posts">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:59:26 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0C13A22E-107B-B6CB-C02B-C8E26108241C">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:02:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="8C073412-4D90-43C7-8C74-31A0BC5B1B54">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:02:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="media_url" id="20B08567-48D3-5531-FE81-8CE7FD5068AA">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:02:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="post_date" id="F1FB8C32-E81C-6BE7-470B-F77C1374BB9A">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:02:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="19B46127-D953-2DBE-524A-9D230B6DB11B">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:45:42 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D21195BA-84F8-0625-93FE-F9397C6977A9" referredColumn="9584DE99-DDCB-FCD8-C81A-AA885E0BB1A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="493566C6-2046-CE8A-EFA4-3F94DA9C2C97" name="Posts_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:02:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C13A22E-107B-B6CB-C02B-C8E26108241C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA061F11-099E-DB40-E643-D7F509D0D4B0" name="Posts_Users_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:45:42 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19B46127-D953-2DBE-524A-9D230B6DB11B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB531816-3432-3C18-B178-9F0B80FDD4C9" name="Relationship_type">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:18:48 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3C3BB2A2-7686-1F51-3351-79B56E842DF3">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:19:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="BB58A0CD-89A7-BB34-E5F9-F32B7380B82E">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:19:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AACED971-6575-65A2-6528-614D31BAA711" name="Relationship_type_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:19:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C3BB2A2-7686-1F51-3351-79B56E842DF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

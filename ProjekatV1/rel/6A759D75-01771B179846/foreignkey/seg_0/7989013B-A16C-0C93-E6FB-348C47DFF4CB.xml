@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7989013B-A16C-0C93-E6FB-348C47DFF4CB" containerWithKeyObject="70C775F5-3C2B-48EF-2144-7193D7938E75" localFKIndex="2F5C4921-EC45-5B71-4AF6-36083372B139" name="Followers_Relationship_type_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 12:34:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<referredTableLongName>Relationship_type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB531816-3432-3C18-B178-9F0B80FDD4C9</referredTableID>
+<keyObject>AACED971-6575-65A2-6528-614D31BAA711</keyObject>
+<referredKeyID>AACED971-6575-65A2-6528-614D31BAA711</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
