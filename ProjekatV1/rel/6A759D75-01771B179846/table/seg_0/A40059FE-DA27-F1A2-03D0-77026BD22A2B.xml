@@ -71,6 +71,19 @@
 <colAssociation fkAssociation="9595CEF2-FDCD-718F-DE55-282F379271B7" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
 </associations>
 </Column>
+<Column name="Seat_id" id="736F5815-5C9C-48E1-215A-2B4C4DA80FD5">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:28:55 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E88FCE78-930A-4D0C-E57E-5114A1D450AA" referredColumn="9FA0F4ED-7D02-F970-35C2-5BBF5D413A43"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="749F8649-AD81-03E9-8C30-D353046E96DD" name="Tickets_PK">
@@ -102,6 +115,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6240A5C1-D1DF-7895-9FC2-337FA8480B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B318CB5A-CF8E-C460-D2CF-27EC58C58787" name="Tickets_Seats_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:29:06 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="736F5815-5C9C-48E1-215A-2B4C4DA80FD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
