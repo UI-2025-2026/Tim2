@@ -18,16 +18,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="seat_class" id="82A0A4C0-CDC8-A3DD-8F0F-0EF6D9195319">
+<Column name="Seat_Class_id" id="82A0A4C0-CDC8-A3DD-8F0F-0EF6D9195319">
 <createdBy>User</createdBy>
 <createdTime>2025-10-12 21:02:22 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34935D8-3A4B-FBE7-FDC0-8F4E2979DD8E" referredColumn="E54647AA-15E4-CDBD-598B-99940A6263DE"/>
+</associations>
 </Column>
 <Column name="seat_number" id="F3478243-99E8-20DC-4050-EC18A0892C6A">
 <createdBy>User</createdBy>
@@ -75,6 +77,19 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Aircraft_Layout_id" id="6D01F7E4-17A6-4D86-2C7C-786688EA0151">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:27:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CB42468-1E44-AE97-1ED6-837CF54A11BC" referredColumn="FCC16615-15AB-CFE8-ECDF-47BDA182B10E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1D368908-4FF7-3CB6-5227-3D369765F501" name="Seats_PK">
@@ -96,6 +111,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="86F5CB93-ABAC-5F39-A621-F6C516E89DF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DBB8FAE-13D0-2FF6-A7E1-37318EB991FE" name="Seats_Seat_Class_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:25:50 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A0A4C0-CDC8-A3DD-8F0F-0EF6D9195319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98150D70-E04C-F166-D271-D79447EDBFB6" name="Seats_Aircraft_Layout_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:28:06 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D01F7E4-17A6-4D86-2C7C-786688EA0151"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

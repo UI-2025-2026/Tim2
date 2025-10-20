@@ -18,17 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="model" id="D262A73A-4BAA-549B-FAED-F3CAD757AAEF">
-<createdBy>User</createdBy>
-<createdTime>2025-10-07 12:32:08 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="passenger_capacity" id="9E78A0C7-EE1D-8F31-8A82-BD730634E41E">
 <createdBy>User</createdBy>
 <createdTime>2025-10-07 12:32:08 UTC</createdTime>
@@ -75,6 +64,19 @@
 <colAssociation fkAssociation="3DA56847-2E9D-7D5B-32C4-269A41570CCB" referredColumn="5022AA70-A3F2-AF20-2D39-9D7BF8264F56"/>
 </associations>
 </Column>
+<Column name="Model_id" id="1A66166D-2F47-88E0-31C5-3DBFA544B6AA">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:12:51 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="655AD8A6-C583-C081-7B30-A7FE667D3C71" referredColumn="85BA6CBD-26B4-3A3E-1563-8D90BF338A8F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4B17989B-2791-31B8-8E68-E79A5136292A" name="Aircrafts_PK">
@@ -96,6 +98,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6DE5A368-7AE0-94D1-BC23-2D68D4B9E49B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8B07B8F-C66F-2701-371D-EB04F30B5809" name="Aircrafts_Aircraft_Model_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:13:05 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A66166D-2F47-88E0-31C5-3DBFA544B6AA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
