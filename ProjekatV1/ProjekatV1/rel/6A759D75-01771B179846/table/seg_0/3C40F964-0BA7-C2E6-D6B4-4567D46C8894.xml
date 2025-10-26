@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63123898-282C-E7DF-5B69-8E3086717043" name="Aircraft_Layout">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C40F964-0BA7-C2E6-D6B4-4567D46C8894" name="Baggage_type">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:16:36 UTC</createdTime>
+<createdTime>2025-10-26 20:27:45 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
-<ordsAlias>table_16</ordsAlias>
+<ordsAlias>table_33</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="FCC16615-15AB-CFE8-ECDF-47BDA182B10E">
+<Column name="id" id="3BD7B9A6-6641-9ADD-2974-C1FF3483B1CF">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:29:39 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,111 +18,111 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="C43E0F52-F1C1-7B16-BFAA-F3AFD7EEBA3F">
+<Column name="name" id="C8339CF1-2757-30E1-8665-966363475B45">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="total_seats" id="78985D87-2494-E555-7CC7-A6F133081F08">
+<Column name="category" id="80CB8121-DED7-D6E5-CD03-2C26F17F1478">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="55C7875E-BCF6-80DD-69F5-F9A667E0B767">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperature_from" id="D99366B6-2FBA-0B2C-322C-BB2899743399">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="num_economy_seats" id="0E3CCE27-9D9B-31B3-9D99-5C439841F12D">
+<Column name="temperature_to" id="552F5138-0F4A-5874-BD27-2725698D6D5A">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="num_business_seats" id="799F6097-E7B0-C61B-8DCA-A0E2B97B8B35">
+<Column name="handling_instructions" id="FE27A83C-BA8E-9651-5C31-F29B20D28B20">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="num_first_class_seats" id="4F13FFCB-7BD7-7C74-7CD7-8C479688DFB4">
+<Column name="documentation" id="C7302313-0A4A-9E7E-F4AF-09E83053CD18">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="num_toilets" id="74001733-A86B-3E03-A555-5FC106D646C0">
+<Column name="is_animal" id="E7661542-3378-1239-B4E3-CBE7374DD3BA">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:32:49 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="num_emergency_exits" id="6862CFB1-389C-0B5D-B29B-32366C173DB1">
-<createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Aircraft_Model_id" id="43122749-31CF-39EE-0A79-CB25A8401BE7">
-<createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7804F698-5DC7-BB66-8DBE-4141DC16583C" referredColumn="85BA6CBD-26B4-3A3E-1563-8D90BF338A8F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BBB3FBB1-3C89-20F4-4FC0-9983FBB2DB40" name="Aircraft_Layout_PK">
+<ind_PK_UK id="52DF9B2B-F990-17CA-EC7D-99DF6CC36403" name="Baggage_type_PK">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:33 UTC</createdTime>
+<createdTime>2025-10-26 20:29:39 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FCC16615-15AB-CFE8-ECDF-47BDA182B10E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="604BDEC1-9FEB-57DB-2014-2C45CCF6662B" name="Aircraft_Layout_Aircraft_Model_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:43 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="43122749-31CF-39EE-0A79-CB25A8401BE7"/>
+<colUsage columnID="3BD7B9A6-6641-9ADD-2974-C1FF3483B1CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

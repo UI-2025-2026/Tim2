@@ -51,9 +51,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="15B0F0AB-5416-043B-92FD-47C59F1755EE" referredColumn="E68B72D6-C564-D85C-B781-3695BCA5B192"/>
-</associations>
 </Column>
 <Column name="is_window" id="5586AE42-3BDB-70AA-CEED-6A0DC4A02E55">
 <createdBy>User</createdBy>
@@ -86,8 +83,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Layout_Segment_id" id="683E769B-45C5-70AA-D0CE-FD9F4DE2035C">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:26:02 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1CB42468-1E44-AE97-1ED6-837CF54A11BC" referredColumn="FCC16615-15AB-CFE8-ECDF-47BDA182B10E"/>
+<colAssociation fkAssociation="7594229C-DE35-81DD-44BD-61E6DF8F882B" referredColumn="B74173E5-B7A0-9A6A-D9E4-64AC5CF365E3"/>
 </associations>
 </Column>
 </columns>
@@ -103,16 +111,6 @@
 <colUsage columnID="9FA0F4ED-7D02-F970-35C2-5BBF5D413A43"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DC102F30-3B0B-0B7B-2E0F-007D623B60FF" name="Seats_Aircrafts_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-10-12 21:05:40 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="86F5CB93-ABAC-5F39-A621-F6C516E89DF8"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="6DBB8FAE-13D0-2FF6-A7E1-37318EB991FE" name="Seats_Seat_Class_FK">
 <createdBy>User</createdBy>
 <createdTime>2025-10-20 00:25:50 UTC</createdTime>
@@ -123,14 +121,14 @@
 <colUsage columnID="82A0A4C0-CDC8-A3DD-8F0F-0EF6D9195319"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="98150D70-E04C-F166-D271-D79447EDBFB6" name="Seats_Aircraft_Layout_FK">
+<ind_PK_UK id="0759F607-B676-11A3-689C-C7D3E39FD787" name="Seats_Layout_Segment_FK">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:28:06 UTC</createdTime>
+<createdTime>2025-10-26 20:26:02 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D01F7E4-17A6-4D86-2C7C-786688EA0151"/>
+<colUsage columnID="683E769B-45C5-70AA-D0CE-FD9F4DE2035C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

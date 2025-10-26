@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7804F698-5DC7-BB66-8DBE-4141DC16583C" containerWithKeyObject="63123898-282C-E7DF-5B69-8E3086717043" localFKIndex="604BDEC1-9FEB-57DB-2014-2C45CCF6662B" name="Aircraft_Layout_Aircraft_Model_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B97B1FA4-874D-FFC4-63EC-7475C09BEAC2" containerWithKeyObject="6C02BBBF-4709-3C9E-5818-2561A56CA475" localFKIndex="CE5CCD98-8F01-0B4E-2E03-CA75BF76124F" name="Aircrafts_Layout_Aircraft_Model_FK">
 <createdBy>User</createdBy>
-<createdTime>2025-10-20 00:21:43 UTC</createdTime>
+<createdTime>2025-10-26 20:02:50 UTC</createdTime>
 <ownerDesignName>ProjekatV1</ownerDesignName>
 <referredTableLongName>Aircraft_Model</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

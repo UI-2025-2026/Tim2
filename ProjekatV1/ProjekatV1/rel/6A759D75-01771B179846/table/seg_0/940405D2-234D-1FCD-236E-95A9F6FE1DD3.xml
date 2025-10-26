@@ -50,16 +50,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="year_produced" id="4DA46B65-8025-DA2B-5F74-8101BE664A80">
-<createdBy>User</createdBy>
-<createdTime>2025-10-20 00:11:39 UTC</createdTime>
-<ownerDesignName>ProjekatV1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="notes" id="9B90477E-9326-D29A-F5CB-3E7208D52258">
 <createdBy>User</createdBy>
 <createdTime>2025-10-20 00:11:39 UTC</createdTime>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7594229C-DE35-81DD-44BD-61E6DF8F882B" containerWithKeyObject="7F075E47-0DEE-AE28-E8CC-B7FB97A389B0" localFKIndex="0759F607-B676-11A3-689C-C7D3E39FD787" name="Seats_Layout_Segment_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:26:02 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<referredTableLongName>Layout_Segment</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6EED2C6-1D9E-E0B9-2312-FE44A0036435</referredTableID>
+<keyObject>BF96BBAF-8DDD-881A-D864-2A3761EE7420</keyObject>
+<referredKeyID>BF96BBAF-8DDD-881A-D864-2A3761EE7420</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
