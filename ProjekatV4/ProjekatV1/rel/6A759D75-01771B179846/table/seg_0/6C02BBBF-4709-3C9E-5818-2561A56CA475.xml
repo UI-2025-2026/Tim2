@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C02BBBF-4709-3C9E-5818-2561A56CA475" name="Aircrafts_Layout">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:52:09 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CA54B591-2422-9B67-5FA7-A7FBD7CDA40A">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="56C826D0-0533-10E7-7F37-2DC03D21D841">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="EF090E85-1D3E-6A0E-ADFC-A8EBB786A559">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_base_layout" id="F66525B7-33D9-9D51-0936-3E510AA36C28">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:03:12 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aircrafts_id" id="4F00127B-468E-3AF9-C420-DEFC2E6A67E6">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:22 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="663B5589-7143-F173-CA50-F3958500512E" referredColumn="E68B72D6-C564-D85C-B781-3695BCA5B192"/>
+</associations>
+</Column>
+<Column name="Aircraft_Model_id" id="8D8306EC-E3AB-1255-B4BA-0F4D02A27CD9">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:02:50 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B97B1FA4-874D-FFC4-63EC-7475C09BEAC2" referredColumn="85BA6CBD-26B4-3A3E-1563-8D90BF338A8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81483B6E-176E-0DC7-28AD-415F6F568543" name="Aircrafts_Layout_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:16 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA54B591-2422-9B67-5FA7-A7FBD7CDA40A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A651FDC-9E62-5C4F-EC60-63B60F2EA3F2" name="Aircrafts_Layout_Aircrafts_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 19:53:22 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F00127B-468E-3AF9-C420-DEFC2E6A67E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE5CCD98-8F01-0B4E-2E03-CA75BF76124F" name="Aircrafts_Layout_Aircraft_Model_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 20:02:50 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8306EC-E3AB-1255-B4BA-0F4D02A27CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

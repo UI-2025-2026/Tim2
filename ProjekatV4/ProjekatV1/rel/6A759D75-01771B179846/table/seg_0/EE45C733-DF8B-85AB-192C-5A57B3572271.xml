@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE45C733-DF8B-85AB-192C-5A57B3572271" name="Technician">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:40:50 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9FA04DF2-E071-4154-13D7-4D0983C7557F">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BE9B7829-5A71-E120-A27A-8F00828AC47C">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certification_level" id="EFBAC13A-D4E6-76D4-1EC6-E0DF4C8C5340">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="experience_years" id="D3F42316-BD04-8F7B-525B-72478C01F5FB">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airline_id" id="EF31F000-B541-659A-9CAC-B86A0C127B39">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3FE048C-F435-D690-D4A2-81C5D9930D0E" referredColumn="5022AA70-A3F2-AF20-2D39-9D7BF8264F56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D767A3B4-F5F0-9559-B7E5-175C84E5DDE2" name="Technician_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA04DF2-E071-4154-13D7-4D0983C7557F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1C76230-B862-155A-C2A3-BFEE3AB9DECB" name="TABLE_31_Airlines_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF31F000-B541-659A-9CAC-B86A0C127B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
