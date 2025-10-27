@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44074F14-21A2-C3D4-5C74-184C1945634D" name="Permits">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:02:50 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="77F89AA5-CF06-3C95-14AA-4BB0135BD8D0">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_from" id="C2DA44DD-924D-114E-F59B-2C93300F235C">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_to" id="36F8BDF6-82E4-3A67-E6C8-25CD9DB23663">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aggreement_date" id="3FEC7CA0-2B6A-884A-E51B-206A5BDD0A02">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contract_number" id="F14B204F-F4B6-0F63-553B-D69A972E346F">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="remarks" id="168642E6-3C73-52C4-DD31-E111B944FB19">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Permit_status_id" id="CCE0B83F-4673-D365-4DFC-8A4719D46AE5">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:07:02 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1084F8AD-1DEB-6E98-8CC5-6618D2E76BCF" referredColumn="5E7786D3-6EEF-9F2B-1631-32C904624F99"/>
+</associations>
+</Column>
+<Column name="Airlines_id" id="A317D7C5-9D4D-0B62-B5D3-B925CA23F530">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:07:39 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDDEF57A-D20F-E739-8416-82CAD465C2AF" referredColumn="5022AA70-A3F2-AF20-2D39-9D7BF8264F56"/>
+</associations>
+</Column>
+<Column name="Routes_id" id="344DF9D9-545D-8104-04BF-499800B89ECF">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:08:19 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76120002-B253-2B11-73D5-B050BBBC44AD" referredColumn="8A96ACB8-115D-6E26-E7A5-3C9BB9D2C3FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FB5E6DA-D3E2-EC16-C713-7D491E87EA1F" name="Permits_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:05:57 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F89AA5-CF06-3C95-14AA-4BB0135BD8D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB098958-D63F-0F9C-F02C-1E7FE8A56838" name="Permits_Permit_status_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:07:02 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE0B83F-4673-D365-4DFC-8A4719D46AE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A59DC66B-09EC-BD78-B20C-4E1B526FAAAB" name="Permits_Airlines_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:07:39 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A317D7C5-9D4D-0B62-B5D3-B925CA23F530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF6489EF-65C2-2C62-7BF4-B005321840E9" name="Permits_Routes_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:08:19 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="344DF9D9-545D-8104-04BF-499800B89ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
