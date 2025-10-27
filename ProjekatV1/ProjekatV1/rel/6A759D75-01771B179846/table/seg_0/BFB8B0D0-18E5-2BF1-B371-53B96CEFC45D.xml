@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFB8B0D0-18E5-2BF1-B371-53B96CEFC45D" name="Aircraft_Model_Parts">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:36:06 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8EFA61A8-2506-A2F5-CDAA-E1D503A0BF53">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aircraft_Model_id" id="F02D129D-6E54-22F4-46D8-0ED8BECDA6F0">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52CB208F-5C5A-5895-0F87-9B3611706726" referredColumn="85BA6CBD-26B4-3A3E-1563-8D90BF338A8F"/>
+</associations>
+</Column>
+<Column name="Parts_id" id="55A048D7-4F13-30BF-E01B-6389EF65AE21">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AABB6932-40E4-B5B8-F6A0-3BE4C69A0D87" referredColumn="E8062AF4-464C-31F6-E391-DE118D78D693"/>
+</associations>
+</Column>
+<Column name="instalation_notes" id="FFE569CA-F0E4-4CCF-12BA-38EB2AFC512B">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E321DCB8-3F77-8E7E-EF8F-956659BEACBF" name="Aircraft_Model_Parts_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:25 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EFA61A8-2506-A2F5-CDAA-E1D503A0BF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D31D0A1-1E0A-E69D-BD28-0998A079A4F4" name="Aircraft_Model_Parts_Aircraft_Model_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:36 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02D129D-6E54-22F4-46D8-0ED8BECDA6F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C6DE1F2-18F6-98F2-FB9B-7FFEA1C46CFA" name="Aircraft_Model_Parts_Parts_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:37:43 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A048D7-4F13-30BF-E01B-6389EF65AE21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
