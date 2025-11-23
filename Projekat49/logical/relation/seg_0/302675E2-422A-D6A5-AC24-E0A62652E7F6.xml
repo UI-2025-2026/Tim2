@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Charter_flights_Charter_purpose_FK" directorySegmentName="seg_0" id="302675E2-422A-D6A5-AC24-E0A62652E7F6">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>31B53E65-BBA6-4037-B53E-0628917E68DA</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>10D23B40-F5F0-42A1-E1A9-56D561AFD310</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21A28DE6-2941-7CD4-7F5D-7A61B044C100</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60B753F3-A976-4679-FC0A-C88CA0081473</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

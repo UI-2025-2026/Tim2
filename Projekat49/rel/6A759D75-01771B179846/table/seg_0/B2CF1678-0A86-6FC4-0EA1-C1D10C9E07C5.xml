@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2CF1678-0A86-6FC4-0EA1-C1D10C9E07C5" name="Employee_positions">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:33:53 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0463E796-0CC3-6952-5591-47A36B3CAE88">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:34:42 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="49861A09-B659-1000-BD63-49BF9D000D9C">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:34:42 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_from" id="DFF85E7A-5940-C42A-4A3C-D73D3CBBC792">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:43:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_to" id="8D69FA91-13B0-96EB-0276-264588E370DB">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:43:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED033AD8-D388-7F6C-3FD4-C27F5433BD62" name="Employee_positions_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:34:42 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0463E796-0CC3-6952-5591-47A36B3CAE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

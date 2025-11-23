@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03BE1F11-B910-0F82-5EA7-16CDDDE1A089" name="Permit_status">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:06:05 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5E7786D3-6EEF-9F2B-1631-32C904624F99">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:06:53 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BFC7A394-AE29-0F7A-2DF9-1172987683AD">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:06:53 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D319E97-70E1-564E-1CCD-3EF7C4A6B201" name="Permit_status_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:06:53 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7786D3-6EEF-9F2B-1631-32C904624F99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

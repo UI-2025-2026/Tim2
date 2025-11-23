@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7206F74C-E8EE-C3A2-85D3-1627DA46DCBF" name="Terminal">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:30:33 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="90601124-5CAC-23B1-D79D-29A2857C7BF1">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:30:58 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="68817335-7A64-33FE-9439-BCE29FB13FB6">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:31:08 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="A3EDF06E-EE8B-9498-84E9-6EFFC4713341">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:31:27 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number of gates" id="6D15FBED-F812-70A4-7E06-4857F7F211A2">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:31:38 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A02A3694-BDFF-FF5E-C33C-F4F814ED4962">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:32:09 UTC</createdTime>
+<generatorID>E5756AB5-FFD3-4F57-AEE5-7A0788AEA0CD</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<referedAttribute>675FEB1A-81F7-853F-039C-8CA8B4D62E8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2139B2D-1AF9-4A11-7037-FD529B27481B" name="Terminal PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:31:01 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90601124-5CAC-23B1-D79D-29A2857C7BF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

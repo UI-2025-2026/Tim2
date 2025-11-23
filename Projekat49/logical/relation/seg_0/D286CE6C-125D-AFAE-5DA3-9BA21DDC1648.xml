@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Maintenance_Tasks_Aircraft_Maintenance_FK" directorySegmentName="seg_0" id="D286CE6C-125D-AFAE-5DA3-9BA21DDC1648">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>A53DE486-0FB4-35B8-F825-427C4D238F6F</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>71AF12DA-442C-CAE1-01BB-136844DAC0F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45B5221B-5B8A-E118-A517-3E58F3007CFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3271824-71E5-3928-8BFC-B6A22D7563C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

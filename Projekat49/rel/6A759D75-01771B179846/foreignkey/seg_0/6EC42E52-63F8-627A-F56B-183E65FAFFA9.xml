@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6EC42E52-63F8-627A-F56B-183E65FAFFA9" containerWithKeyObject="C2B82B75-62E0-7266-000D-64D2129B1F01" localFKIndex="0C02CDC4-1E56-577F-81A8-3F83E8FB50CA" name="Gate_Terminal_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>A150115C-52E2-7E7B-E7B0-26A9195A3138</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<referredTableLongName>Terminal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E352F541-877E-F55B-B7BD-85CC4A35ADD8</referredTableID>
+<keyObject>791D934D-08C1-F33F-6BAA-DB868B45AF53</keyObject>
+<referredKeyID>791D934D-08C1-F33F-6BAA-DB868B45AF53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

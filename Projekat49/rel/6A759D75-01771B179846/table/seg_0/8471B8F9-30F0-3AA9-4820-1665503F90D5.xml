@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8471B8F9-30F0-3AA9-4820-1665503F90D5" name="Reservation">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:47:27 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3E16529A-0C8F-C588-84E5-0E8C904FA3B8">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:11 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booking_date" id="BDF9F906-257B-A249-0FF7-156A9DE97ED9">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:11 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="3BCED4B7-63A1-DB47-878A-9541D67A84CA">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:11 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flights_id" id="D6DE6B5D-86AE-F272-11CD-BA3A55D02E16">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D4B8EDD-F5B9-FBD8-33FC-8B5F102F4985" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="main_passenger_id" id="225BBCFD-5DAF-A357-EB41-E8DD9E204A15">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:27:02 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A5E5DC2-98C4-D87F-17AD-5B2C1E7BBF6B" name="Reservation_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:11 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="102A5FB6-9453-AA64-B5B1-D99517738643" name="Reservation_Flights_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:49:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6DE6B5D-86AE-F272-11CD-BA3A55D02E16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Routes_Airports_FKv2" directorySegmentName="seg_0" id="A9564E4F-71A4-B930-B08F-B90F0DD011F9">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>5175C0EC-92D8-F48E-3550-F821515547E2</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>A93E056E-401C-F4FC-1C7B-F1A5D5CA8A94</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02866BA6-2C7D-EC7F-EE66-F92B6CF4D6E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A33D0AA5-F2D5-CDEE-B22A-70AAD9113A73</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

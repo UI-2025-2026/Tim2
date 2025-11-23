@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE45C733-DF8B-85AB-192C-5A57B3572271" name="Technician">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:40:50 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9FA04DF2-E071-4154-13D7-4D0983C7557F">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BE9B7829-5A71-E120-A27A-8F00828AC47C">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certification_level" id="EFBAC13A-D4E6-76D4-1EC6-E0DF4C8C5340">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="experience_years" id="D3F42316-BD04-8F7B-525B-72478C01F5FB">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airlines_id" id="EF31F000-B541-659A-9CAC-B86A0C127B39">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3FE048C-F435-D690-D4A2-81C5D9930D0E" referredColumn="5022AA70-A3F2-AF20-2D39-9D7BF8264F56"/>
+</associations>
+</Column>
+<Column name="Employee_type_id" id="940BF9A0-7842-FC8D-FC01-9FD37B62496B">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>FC85819B-E8F4-D83D-5D77-9A7158F3EB43</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F13E30DA-D2F1-DC37-C381-2765DA510021" referredColumn="D4630C4A-FFD4-26F0-AF24-3B13F912C59F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D767A3B4-F5F0-9559-B7E5-175C84E5DDE2" name="Technician_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA04DF2-E071-4154-13D7-4D0983C7557F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1C76230-B862-155A-C2A3-BFEE3AB9DECB" name="Technician_Airlines_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:42:46 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF31F000-B541-659A-9CAC-B86A0C127B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABE3847A-90BA-71BB-039E-3DE783052BD0" name="Technician_Employee_type_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>2AE68C5B-DB28-562A-49E9-140D7D21658C</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940BF9A0-7842-FC8D-FC01-9FD37B62496B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

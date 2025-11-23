@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54721F93-C856-F791-01DA-E248325455C0" containerWithKeyObject="67BEB8C3-3B95-7446-38E6-CE9D0A4F59A9" localFKIndex="067A39C0-BB5B-82AA-8C99-61E4619E85B6" name="Runway_Airports_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>62B94F09-7D36-318F-CFD6-15E6B525823C</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<referredTableLongName>Airports</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4097810E-391E-2863-A1CD-728B71A634B6</referredTableID>
+<keyObject>7CE56520-4838-E91C-5C27-A8044F7E3105</keyObject>
+<referredKeyID>7CE56520-4838-E91C-5C27-A8044F7E3105</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

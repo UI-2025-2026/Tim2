@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DADC4E7D-8BE5-FEF6-2A72-F9033FDB705A" name="Charter_flights">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:11:18 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0E2E2EED-ABA1-DCD7-63A5-7EBE74A03247">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:13:15 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departure_time" id="58E13F5B-2DAD-E0B1-AA25-3F2CDA1A3684">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:13:15 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arrival_time" id="5DE57AE4-8B99-9621-3939-D1E84F497050">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:13:15 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="charter_code" id="1458B8B1-8CC8-B79F-E245-F157B4055922">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:13:15 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airlines_id" id="CDE8CF3C-D750-AFCB-486D-26CB110314CA">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:14:36 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14CDE4C4-5149-E2E7-D5B7-BE25F16A5760" referredColumn="5022AA70-A3F2-AF20-2D39-9D7BF8264F56"/>
+</associations>
+</Column>
+<Column name="Permits_id" id="D0130210-5AC6-DC9F-7026-BCD9482B76D2">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:14:56 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC4443A1-B886-6044-E654-C6736EEF7DCB" referredColumn="77F89AA5-CF06-3C95-14AA-4BB0135BD8D0"/>
+</associations>
+</Column>
+<Column name="Airports_id" id="899CAA5D-9F72-7C6C-6516-586AC951BE27">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:16:21 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D226D1DE-EAF8-BF76-F8EC-08A0D11BE9F0" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+<Column name="Airports_id1" id="B79161E9-4E67-85C9-285E-56EE25A00EFF">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:16:39 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CAB8E50-F75F-729A-C3E9-84C9FA84EDFA" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+<Column name="Charter_purpose_id" id="666E34BF-9434-20AC-AD84-14B1B0F557A0">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:23:50 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31B53E65-BBA6-4037-B53E-0628917E68DA" referredColumn="AC14710F-13CB-15B8-712C-381ABF55C7E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F4D5DF-F0B6-78E9-7E88-2A646D60A1F4" name="Charter_flights_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:13:15 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E2E2EED-ABA1-DCD7-63A5-7EBE74A03247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F38AFE1B-B32E-DA61-C06A-294EFE4A2B8A" name="Charter_flights_Airlines_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:14:36 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE8CF3C-D750-AFCB-486D-26CB110314CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7882DCF7-E7E7-6229-BF29-F4FC50810574" name="Charter_flights_Permits_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:14:56 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0130210-5AC6-DC9F-7026-BCD9482B76D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70B22C55-B339-1B64-6842-FE55D1588B9E" name="Charter_flights_Airports_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:16:21 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="899CAA5D-9F72-7C6C-6516-586AC951BE27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EFA1938-693B-58F7-0A8E-2FE3DFA7E0B2" name="Charter_flights_Airports_FKv1">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:16:39 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B79161E9-4E67-85C9-285E-56EE25A00EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0592D809-1491-A703-09A9-B5548D7F988C" name="Charter_flights_Charter_purpose_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 01:23:50 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="666E34BF-9434-20AC-AD84-14B1B0F557A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

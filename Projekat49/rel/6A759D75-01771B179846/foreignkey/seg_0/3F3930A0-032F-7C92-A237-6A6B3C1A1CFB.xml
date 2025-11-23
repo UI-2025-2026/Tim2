@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F3930A0-032F-7C92-A237-6A6B3C1A1CFB" containerWithKeyObject="5F84DBA3-E7EB-F9F5-E198-7655233F1E6D" localFKIndex="A6E5776E-2709-4977-A9AF-DFA568F42901" name="Flights_Gate_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>7D747DF6-7B4F-9C22-AA22-A3D27BC70CF2</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<referredTableLongName>Gate</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2B82B75-62E0-7266-000D-64D2129B1F01</referredTableID>
+<keyObject>CE242B5E-230E-2C95-8D68-7FB51D21A58F</keyObject>
+<referredKeyID>CE242B5E-230E-2C95-8D68-7FB51D21A58F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>gate_number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

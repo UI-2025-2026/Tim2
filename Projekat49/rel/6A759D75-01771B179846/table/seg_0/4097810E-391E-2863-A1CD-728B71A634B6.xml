@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4097810E-391E-2863-A1CD-728B71A634B6" name="Airports">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:27:13 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8D8349C8-446F-909F-E6F9-2878F31E4DDD">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:28:09 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2ADCFEFC-EB5F-7C2E-3B6B-07B02222B0AF">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:28:09 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IATA_code" id="2D203292-EFE8-F5A5-47D2-58FFBA07ABB5">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:29:03 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="97EA1B27-831F-49EB-07FC-08110367496A">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:30:02 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flights_id" id="861E9A73-DA64-5B23-F36B-1E72A379A978">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:14:12 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46D4C5DD-7CE0-31DA-A023-34F45360F241" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="Flights_id2" id="C2A3285C-D39E-7E4E-8C06-654D99D8559E">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:15:41 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3952667-65D7-E0AC-C94B-7639802F31F1" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CE56520-4838-E91C-5C27-A8044F7E3105" name="Airports_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:28:09 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7625F1B2-A203-7978-FC33-547D4827DA44" name="Airports_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:14:12 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="861E9A73-DA64-5B23-F36B-1E72A379A978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27A4AEC0-2C7B-D5D7-4B01-90618C6129B0" name="Airports_Flights_FKv1">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:15:41 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A3285C-D39E-7E4E-8C06-654D99D8559E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

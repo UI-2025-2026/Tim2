@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2B82B75-62E0-7266-000D-64D2129B1F01" name="Gate">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>E061E46C-9563-636A-3966-F59E4E6BDC5E</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gate_number" id="78B0B17E-AE90-FEDE-40A9-2A0533C8967C">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>A9E7E210-17D7-9B43-E7A2-B1999AFCA8D5</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E7714306-EEB9-8FF7-21E5-37803041EFE5">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>7F94E9C5-4101-F533-031C-75F36F652092</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Terminal_id" id="F8946B65-C637-4CB8-608A-53B3FDFE1EFB">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>5D1FF372-FB81-F5D8-C389-7BB04ABECD53</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EC42E52-63F8-627A-F56B-183E65FAFFA9" referredColumn="9B2F306B-361E-1AAC-CAED-724D249BA176"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE242B5E-230E-2C95-8D68-7FB51D21A58F" name="Gate_PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>8B21E085-F7B7-06B3-694F-470998267712</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78B0B17E-AE90-FEDE-40A9-2A0533C8967C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C02CDC4-1E56-577F-81A8-3F83E8FB50CA" name="Gate_Terminal_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>A150115C-52E2-7E7B-E7B0-26A9195A3138</generatorID>
+<ownerDesignName>Projekat49</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8946B65-C637-4CB8-608A-53B3FDFE1EFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
