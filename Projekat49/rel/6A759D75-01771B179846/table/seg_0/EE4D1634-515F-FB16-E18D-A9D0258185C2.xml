@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE4D1634-515F-FB16-E18D-A9D0258185C2" name="Loyalty_Tiers">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:21:29 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="69F710E1-446B-D6BE-02A8-C17E66DDDD6D">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:23:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tier_name" id="09CEC001-215D-1CFE-0421-DFE5E0238411">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:23:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="requied_distance_km" id="9EB7F80D-7104-AF16-9877-EE14C9A1C8B1">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:23:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="benefits" id="63123E45-3275-93F1-79A3-E4D8E63BB981">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:23:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A71029F-0692-1C25-AD2C-361DF132CB17" name="Loyalty_Tier_Rules_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:23:24 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F710E1-446B-D6BE-02A8-C17E66DDDD6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

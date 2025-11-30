@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5CBB2B37-72EE-E111-6665-DF1B15507031" containerWithKeyObject="2979A070-6917-F7EE-B551-A3CDB0A25FF3" localFKIndex="6054A86E-348A-392E-52FE-3E182EA15D9E" name="Flight_disruption_Delay_cause_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:35:12 UTC</createdTime>
+<ownerDesignName>Projekat49</ownerDesignName>
+<referredTableLongName>Delay_cause</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D4809D9-5ADE-7F9E-B99B-5D60F2208B72</referredTableID>
+<keyObject>30526ACB-BDCC-B1A6-4AE7-25E575CE7E94</keyObject>
+<referredKeyID>30526ACB-BDCC-B1A6-4AE7-25E575CE7E94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
