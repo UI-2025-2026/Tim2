@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14BEAA69-61C6-1B74-5037-4E498C01BE78" name="Parts">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>E93EADBE-DF56-6379-4035-6F2F8DC27815</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F3D03F92-53E1-431B-A56C-0BF1C440EA34">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>E8062AF4-464C-31F6-E391-DE118D78D693</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D58A64D0-4906-8EA3-0841-B4624D4D122C">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>8584071E-CE68-AEE5-D047-CE24D3784EE3</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="part number" id="A430F806-ED5A-D35F-406A-C5CF645D9135">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>76A90B92-5754-3C25-DD72-BE4117451DE2</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacterer" id="246ADB97-187F-B93C-9961-FBFF8A32DC10">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>2E9747BB-4E40-A529-F208-F4D095720DC0</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="E42B2A27-1483-5C91-D0C9-555366D62865">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>380A7C18-517D-D7EA-62BA-04368BB26B4C</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight kg" id="D75D0193-D762-230C-C709-E020778045E3">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>791D401F-5922-66C0-E514-86EAFD635112</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="60763B71-A895-20CB-923C-9D169B0427EF">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>B22A6250-5A0D-BE9A-E3D5-A333FF0F8D24</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Master Part id" id="A4B4ADD5-A13E-0ED0-1336-1E5170FAF515">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>67AD5E87-4003-9F5B-0B1A-E6F54B7F357F</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F3D03F92-53E1-431B-A56C-0BF1C440EA34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FFC86CC-114E-B2AB-E371-9D77ECA611DB" name="Parts PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>D8B6E1CC-E322-2FD4-73F5-1D5522635765</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3D03F92-53E1-431B-A56C-0BF1C440EA34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98052E12-609F-B627-5684-EA22A50C3AD1" name="Complaint_Responses">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:51:50 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5F73AF03-E655-B0FF-69B6-0110B32A067E">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complaint_id" id="C795CC28-239C-92FB-98FF-6328445521FC">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7E67C06-68B1-A265-1392-239E4070BB53" referredColumn="9B870FCB-62A9-C19F-AC95-400CE6FBF8D8"/>
+</associations>
+</Column>
+<Column name="employee_id" id="284D3D18-8D5B-B92A-217F-19F993753B2D">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6ED674E6-98F2-26B0-F27A-276C8D8B5DE5" referredColumn="EFD875AC-C5ED-1A71-BBE3-F73904BE5CA7"/>
+</associations>
+</Column>
+<Column name="response_date" id="76D22D13-B22C-AE52-F2F2-8DD09AE62ABF">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="response" id="EE0ED1C5-D81D-B56B-98B9-EE27A1270D63">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB1C5FD5-4B7E-1112-1B31-9C1C923DEDDD" name="Complaint_Responses_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F73AF03-E655-B0FF-69B6-0110B32A067E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="865CA960-EE3A-803B-502D-3C6C579D0A41" name="TABLE_72_Employees_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284D3D18-8D5B-B92A-217F-19F993753B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D3CFFA1-A3F2-DE54-699F-E0801F8536D5" name="TABLE_72_Complaints_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C795CC28-239C-92FB-98FF-6328445521FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

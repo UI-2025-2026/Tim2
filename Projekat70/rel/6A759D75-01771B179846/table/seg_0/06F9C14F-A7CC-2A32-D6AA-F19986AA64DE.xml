@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06F9C14F-A7CC-2A32-D6AA-F19986AA64DE" name="Payment_method">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:57:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8BD635DC-8639-410D-A61A-94BF02ED7862">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:58:07 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="350F4ACF-9129-4A69-8A42-EEDC74F22F47">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:58:07 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78A294B3-8F18-4763-926B-D7D44300E317" name="Payment_method_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:58:07 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BD635DC-8639-410D-A61A-94BF02ED7862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

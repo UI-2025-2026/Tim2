@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03F08051-3BB8-1625-71A2-137071865410" name="Flight_attendant">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>81FD22D4-3718-4B5F-7162-0E02C287AB38</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="493223C3-CE38-2561-FB7C-73FC83EB2679">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>11129D00-A489-AEC4-5A32-7C4A95276DEF</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seniority_level" id="BC08B3FA-B2DB-2EB9-7184-3E36B4630834">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>F4379EB8-7FBE-472C-9B3C-CFA4724E461D</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_type_id" id="E7F6AFBA-7661-11C1-5671-C107FDE0AB47">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>2B52F93E-776C-2BFA-CBA6-344641337409</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167A9900-CB5D-A1A0-B379-7FCA67BEE36D" referredColumn="D4630C4A-FFD4-26F0-AF24-3B13F912C59F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB2B5E34-6C4E-ADB7-167A-8685E89ACC12" name="Flight_attendant_PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>2725135E-8B61-07AC-9AD6-C71B06212989</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="493223C3-CE38-2561-FB7C-73FC83EB2679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63A2F256-CF14-D0C2-2AD0-4271BCEAD524" name="Flight_attendant_Employee_type_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>6542CB6B-9754-A431-7162-917073875B2B</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F6AFBA-7661-11C1-5671-C107FDE0AB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

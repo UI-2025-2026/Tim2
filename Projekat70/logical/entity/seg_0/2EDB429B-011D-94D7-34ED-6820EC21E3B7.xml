@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EDB429B-011D-94D7-34ED-6820EC21E3B7" name="Loyalty Programs">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>490CC61A-EA90-3265-D019-F6E1C3166C49</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B52C4496-9708-8E34-40AA-E63751AFA544">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>F83E9857-0C81-FB70-5A07-31EA557F195B</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="membership number" id="33078025-C5EB-8E89-ABB0-CC254B270023">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>2FB719FD-7C1A-D26E-7B26-B3412CAAAE25</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tier level" id="10BAB1AA-1392-E43E-D5FE-ACC054AB3E4C">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>C7B153BF-AA4A-CFFA-46D3-1718A2EF56F1</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miles" id="22B8B1FC-FAAB-179D-F87B-26D1E75168B6">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>3E55B7CC-648C-D1EE-576B-970857B2BC69</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Passenger id" id="43914F02-1F83-AEF7-FFC2-024E200047D3">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>CF1918C8-09FD-FE33-1A7C-F5AAF186DCF4</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<referedAttribute>F63E89C7-6B54-3A05-0476-B7F15A8B3B09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3A0D147-C865-15C2-7EBC-8C4DA7979D27" name="Loyalty Programs PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>2A0346CC-D5AB-CEC5-16FB-E7E3D3FF7A51</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B52C4496-9708-8E34-40AA-E63751AFA544</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

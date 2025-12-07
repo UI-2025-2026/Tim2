@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="490CC61A-EA90-3265-D019-F6E1C3166C49" name="Loyalty_Members">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:34:41 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F83E9857-0C81-FB70-5A07-31EA557F195B">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:35:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="membership_number" id="2FB719FD-7C1A-D26E-7B26-B3412CAAAE25">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:35:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miles" id="3E55B7CC-648C-D1EE-576B-970857B2BC69">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:37:12 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Passengers_id" id="12014AC0-BA5D-5DDE-0C92-071972E6089A">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:37:12 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="528D3299-8481-F289-9BCE-8F10FFC18D2C" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+<Column name="Loyalty_Tiers_id" id="FB3A0182-F64F-853D-5B40-0A9D3BCAA480">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:24:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64D8BF87-EF2F-26BE-4107-2E713D3623AE" referredColumn="69F710E1-446B-D6BE-02A8-C17E66DDDD6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A0346CC-D5AB-CEC5-16FB-E7E3D3FF7A51" name="Loyalty_Programs_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:35:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F83E9857-0C81-FB70-5A07-31EA557F195B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B741C93-7DA0-89EA-912E-9A32CA18388C" name="Loyalty_Programs_Passengers_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-12 21:37:24 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12014AC0-BA5D-5DDE-0C92-071972E6089A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9397661D-A625-4C32-3714-0919D6BDF724" name="Loyalty_Members_Loyalty_Tiers_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:24:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3A0182-F64F-853D-5B40-0A9D3BCAA480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

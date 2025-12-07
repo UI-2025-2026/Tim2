@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC84EEF-6F6F-91CF-8FE9-6E2134C0B638" name="Market_Segment">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:56:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="898E5F27-521F-7E1F-D70D-4A8071CA4D04">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:57:00 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D29B713E-9DB0-BDD9-ADE6-6DFF5336320D">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:57:00 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B3773748-08EA-CFD9-9A22-E79B13E3B481">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:57:00 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7115676-0271-B06A-C8B9-341A98252BEB" name="Market_Segment_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:57:00 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="898E5F27-521F-7E1F-D70D-4A8071CA4D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

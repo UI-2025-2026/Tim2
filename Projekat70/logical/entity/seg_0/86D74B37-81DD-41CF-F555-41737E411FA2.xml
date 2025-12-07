@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86D74B37-81DD-41CF-F555-41737E411FA2" name="Storage segment">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>E2F1CEB2-4806-52B6-2EDE-9AF6C5360AB6</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B1A1BFBB-5B9E-4978-251F-42F607B31AB9">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>919CB728-840C-FD62-D9DF-865206EF86BE</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight kg" id="A5A0FD52-FE9F-F7D0-6FEB-8F80189E5324">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>03A2F59B-E6D3-8DA2-26BD-BD339014C828</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume m3" id="D0FD6FAB-4AC0-2AAC-8D70-1C1FF5628078">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>A78F3013-C998-778A-C61E-BD2ED5E6BA00</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperature control" id="F3AFE257-122C-4ECA-0640-730A4E2DD91D">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>663D0C16-2703-0008-3A74-DCF9B2CFB935</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Layout Segment id" id="E5829433-F195-B552-E63F-1107782A6923">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>EF266985-BDAA-4F91-A9B5-CEDAAC4BCF03</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<referedAttribute>1DE6FFA2-7B8A-ADFF-4D72-5EEA3BC5A213</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E163E28D-6074-1A8E-1701-021EEF847EAF" name="Storage segment PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>EC22E9CD-50BB-B776-F38A-47BC22DBEE59</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1A1BFBB-5B9E-4978-251F-42F607B31AB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

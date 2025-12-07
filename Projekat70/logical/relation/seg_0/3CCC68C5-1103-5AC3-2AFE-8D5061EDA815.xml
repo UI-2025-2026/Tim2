@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Flight_Crews_Employees_FK" directorySegmentName="seg_0" id="3CCC68C5-1103-5AC3-2AFE-8D5061EDA815">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>C13530F2-C41A-4228-5D63-E01FB9843E1E</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>E1AAD410-AAA5-E91E-627B-516FC652244C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88EC0702-FF6C-6021-8774-E79783B78300</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E4A81369-D8C6-A6FA-5840-CAAFBB3BA96A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

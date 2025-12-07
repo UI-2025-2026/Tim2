@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AD23721-B831-3A68-9DE6-6C059023E5DE" name="Passanger_Segmentation">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:57:05 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="segment_id" id="951FDEC9-82A4-AA59-D08A-A24BEEF5D374">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F49B4A80-C61F-28B4-CBEB-436F202141D2" referredColumn="898E5F27-521F-7E1F-D70D-4A8071CA4D04"/>
+</associations>
+</Column>
+<Column name="passanger_id" id="B039DB25-EA59-BFDC-774F-D11CFB270C87">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70C7D226-7E84-727A-45EA-386A33B819C5" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+<Column name="effective_date" id="9C03F32E-32DC-1FF3-2722-50C6B4BC42FA">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8177031-A99A-A364-F2DA-C042ECC01D98" name="Passanger_Segmentation_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="951FDEC9-82A4-AA59-D08A-A24BEEF5D374"/>
+<colUsage columnID="B039DB25-EA59-BFDC-774F-D11CFB270C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B56BEB4-41CC-4414-C116-020FE831727C" name="TABLE_74_Passengers_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B039DB25-EA59-BFDC-774F-D11CFB270C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC68DA92-4FC9-1CD5-4B9E-FCC909ACD768" name="TABLE_74_Market_Segment_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:58:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="951FDEC9-82A4-AA59-D08A-A24BEEF5D374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

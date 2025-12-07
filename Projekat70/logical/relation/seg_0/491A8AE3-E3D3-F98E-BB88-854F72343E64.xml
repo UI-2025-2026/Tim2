@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Seats_Seat_Class_FK" directorySegmentName="seg_0" id="491A8AE3-E3D3-F98E-BB88-854F72343E64">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>A34935D8-3A4B-FBE7-FDC0-8F4E2979DD8E</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>21E5A278-9AC9-5B70-DA46-10E3A60D0603</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DB9E78B-CDD7-3325-0DD1-9ED2EB76FB43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9471BCB6-310C-5E63-438F-0EAB9A890F9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

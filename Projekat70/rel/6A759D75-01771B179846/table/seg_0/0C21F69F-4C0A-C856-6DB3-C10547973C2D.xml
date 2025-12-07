@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C21F69F-4C0A-C856-6DB3-C10547973C2D" name="Loyalty_Promotion">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:43:37 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C988E36D-8A12-02DD-3BCE-3D7AEB1523AE">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2D729895-2023-B376-71A5-1DE3DC1A0089">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="292CE73D-BD4B-C89D-E7AC-C228650F494A">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="EDA704EB-4DCA-AA51-EEBE-BC140A9075CD">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="8C137991-E5C0-1C91-FE29-891B9F881838">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus_percentage" id="C5C91B6A-C4BA-4FC4-25C6-210B35DCA6F2">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79D9460B-9EDB-12D5-9FC8-7FA0294A1F33" name="Loyalty_Promotion_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:44:57 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C988E36D-8A12-02DD-3BCE-3D7AEB1523AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

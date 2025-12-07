@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21B6CC7D-34A5-E35C-1D14-F93F1E9B37F3" name="Flight_status">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 18:31:22 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="940A0DB9-CE8E-50AF-D0B8-277578BA1836">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 18:32:43 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_name" id="C30EDF26-88A8-6DE6-6293-3D9E15900F06">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 18:32:43 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B73ABCA9-E5EF-1D45-E6B8-EB6126A1BC57" name="Flight_status_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 18:32:43 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940A0DB9-CE8E-50AF-D0B8-277578BA1836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

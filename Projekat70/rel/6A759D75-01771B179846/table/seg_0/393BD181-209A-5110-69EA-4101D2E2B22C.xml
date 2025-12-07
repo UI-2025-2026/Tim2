@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="393BD181-209A-5110-69EA-4101D2E2B22C" name="Routes">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:35:55 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8A96ACB8-115D-6E26-E7A5-3C9BB9D2C3FF">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:35 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="distance_km" id="8373CC69-56B8-0F2A-6E85-CAB1BDED6F71">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:35 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration_min" id="AADD93D1-FE9E-F065-6DDC-82405F9EA181">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:35 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airports_id" id="9FA0D407-C7AB-5ADB-4570-4D2D78A504E5">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:40 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB68C6C-A101-274A-15F4-C137AFFF0939" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+<Column name="Airports_id1" id="DDECDFC5-07CB-8F90-DD3B-6E6165486868">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5175C0EC-92D8-F48E-3550-F821515547E2" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="119D128C-FF55-A2EA-0926-EDD3BE6151C6" name="Routes_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:35 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A96ACB8-115D-6E26-E7A5-3C9BB9D2C3FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CB3FDCE-5F42-39E4-7310-06030EBDD761" name="Routes_Airports_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:40 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA0D407-C7AB-5ADB-4570-4D2D78A504E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BE50C94-F383-537B-A412-6EF5154611EF" name="Routes_Airports_FKv1">
+<createdBy>User</createdBy>
+<createdTime>2025-10-07 12:36:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDECDFC5-07CB-8F90-DD3B-6E6165486868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

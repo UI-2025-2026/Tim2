@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="17897A10-6F03-418B-8143-3FFF8194F819" containerWithKeyObject="2203D13D-4D49-2F53-7F40-38E8E348DE56" localFKIndex="3ED5B2DD-62FA-4ACD-D7FA-347A8D94CD65" name="FuelRecord_Fule_Contracts_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:31:08 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<referredTableLongName>Fule_Contracts</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC357418-4453-D20C-6855-2E4A79B0F6F8</referredTableID>
+<keyObject>A01542A6-7604-8680-A969-7B47B2EE1F24</keyObject>
+<referredKeyID>A01542A6-7604-8680-A969-7B47B2EE1F24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

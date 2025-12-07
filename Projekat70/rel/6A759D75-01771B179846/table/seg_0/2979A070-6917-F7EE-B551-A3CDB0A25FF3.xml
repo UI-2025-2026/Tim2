@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2979A070-6917-F7EE-B551-A3CDB0A25FF3" name="Flight_disruption">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:33:23 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="62B27900-6B1D-F96A-4853-C03D229E2503">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disruption_type" id="11B719C2-5CDC-7FA3-9C9F-E7A1A81CEE88">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delay_time_minutes" id="2E4D2A81-4EDF-4003-39C0-533E4CE64822">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_of_disruption" id="7A89CD75-C0A6-F2F8-2480-8747BDF5EF21">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="A4B0BCFC-734D-3ACD-0ED5-1A9E0F6C5927">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delay_cause_id" id="3B9CD966-8D6B-4072-F0BF-2D483AB1EFB3">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:35:12 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CBB2B37-72EE-E111-6665-DF1B15507031" referredColumn="E10AC1CB-47E8-8879-648C-EF4B4B5048EF"/>
+</associations>
+</Column>
+<Column name="Flights_id" id="5A2C7C99-7D2C-0B94-58A3-7DCE3FCC1CD5">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:35:23 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C178B86C-BD17-E3A0-090A-48D27C2E3059" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E40E08EE-54DE-FA85-4140-1E02B2ED694F" name="Flight_disruption_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:34:42 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B27900-6B1D-F96A-4853-C03D229E2503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6054A86E-348A-392E-52FE-3E182EA15D9E" name="Flight_disruption_Delay_cause_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:35:12 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9CD966-8D6B-4072-F0BF-2D483AB1EFB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71D48703-547D-551E-CB03-5D935BBA7D63" name="Flight_disruption_Flights_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:35:23 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A2C7C99-7D2C-0B94-58A3-7DCE3FCC1CD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

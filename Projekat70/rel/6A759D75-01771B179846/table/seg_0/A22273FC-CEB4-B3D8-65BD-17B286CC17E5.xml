@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A22273FC-CEB4-B3D8-65BD-17B286CC17E5" name="Maintenance_Type">
+<createdBy>User</createdBy>
+<createdTime>2025-10-27 00:02:43 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="16A8BF4C-D261-CFC6-77D9-08952AC37F19">
+<createdBy>User</createdBy>
+<createdTime>2025-10-27 00:03:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="CCFB9FC3-1949-96C4-3D8B-028BA7B45703">
+<createdBy>User</createdBy>
+<createdTime>2025-10-27 00:03:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="E0F438B7-F51A-254E-B47D-5AD19CAC2C3B">
+<createdBy>User</createdBy>
+<createdTime>2025-10-27 00:03:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E098D9C7-8692-0C25-54C3-2165FEA0574F" name="Maintenance_Type_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-27 00:03:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A8BF4C-D261-CFC6-77D9-08952AC37F19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

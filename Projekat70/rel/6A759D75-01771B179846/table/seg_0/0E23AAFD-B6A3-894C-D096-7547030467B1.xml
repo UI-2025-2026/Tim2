@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E23AAFD-B6A3-894C-D096-7547030467B1" name="Reservation_Passenger">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:17:52 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reservation_id" id="9CD466B1-1F95-DB04-1FD5-D9C89BB8DB7A">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:18:58 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD9C222-29D8-CB65-CC0C-E2D02C66F9B6" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</associations>
+</Column>
+<Column name="Passengers_id" id="80CCCAE3-2BA9-A274-F50B-C3857C5FF597">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:19:06 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BE3735D-EA0C-E7EE-19D3-A3F55BCE6685" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="923D5160-7641-0971-DDAA-BA9A56695CC8" name="Reservation_Passenger_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:19:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CD466B1-1F95-DB04-1FD5-D9C89BB8DB7A"/>
+<colUsage columnID="80CCCAE3-2BA9-A274-F50B-C3857C5FF597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5C0B51F-25FD-FF96-D7FE-DE808E2810F6" name="Reservation_Passenger_Reservation_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:18:58 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CD466B1-1F95-DB04-1FD5-D9C89BB8DB7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B623883-6331-CDD1-7F2D-AD1361164978" name="Reservation_Passenger_Passengers_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:19:06 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CCCAE3-2BA9-A274-F50B-C3857C5FF597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

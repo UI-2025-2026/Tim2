@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69E259CC-FD76-0335-A0C8-D5F7777D58EA" name="Boardings">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:44:16 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8E16A90D-AA3B-D139-F497-FF1033E333D4">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:51:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boarding_time" id="9B0D9C84-6023-CEC5-5E42-F31E6CB18534">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:51:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gate" id="02238A8F-97AA-4ADC-F743-546DD489C495">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:53:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boarded" id="188A2063-3F82-1038-6E4C-05C6B3F09A7E">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:54:07 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservation_id" id="1734E3EF-DEEC-41CF-1F52-5F663483C7F6">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:55:36 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DD9721D-623E-979F-E172-4F7F6E1B77BE" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</associations>
+</Column>
+<Column name="Flights_id" id="2A815259-5551-B263-3A7F-5938810E3731">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:55:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BF435BF-D94F-EABD-87D0-151CEB862B84" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8590EEB4-3C7C-5029-51E7-0B5980FF8648" name="Boardings_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:51:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E16A90D-AA3B-D139-F497-FF1033E333D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B37006A5-AE14-1280-A07C-CB8977FAB167" name="Boardings_Reservation_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:55:36 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1734E3EF-DEEC-41CF-1F52-5F663483C7F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45991F59-C2B8-DB54-F525-8B23117C3C84" name="Boardings_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-27 00:55:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A815259-5551-B263-3A7F-5938810E3731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

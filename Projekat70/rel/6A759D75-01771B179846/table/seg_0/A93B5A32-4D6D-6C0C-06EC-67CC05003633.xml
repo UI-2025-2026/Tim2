@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A93B5A32-4D6D-6C0C-06EC-67CC05003633" name="Rebooking">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:22 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3BD198C8-A840-C616-8F18-D60DD6D33907">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:37:53 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="old_flight_id" id="549E4583-FB5D-3782-06A2-97A1791D9F21">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5047C704-E412-0F62-ED1F-2CEB1BE289D0" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="new_flight_id" id="E326A5E6-8A76-ABFC-EB9D-B39C4C96084C">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D12FA10-8389-236F-97FF-DCAB15EC28F1" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="Reservation_id" id="DEA3F5C9-1C85-5D69-AD49-B0D2D768FAF2">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F423B6E2-102C-B11D-C8C3-3983D0C3C222" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</associations>
+</Column>
+<Column name="reason" id="B269CF90-F4E6-B181-857B-3C75D00B50FB">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:37:53 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rebooking_date" id="28A55FB7-413C-1825-9F32-3F5055B90530">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:37:53 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37384173-E3F7-96FB-E077-36CDD136447F" name="Rebooking_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:37:53 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD198C8-A840-C616-8F18-D60DD6D33907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CDFF230-A9C6-4EF9-0E88-A81722C74AEC" name="Rebooking_Flights_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549E4583-FB5D-3782-06A2-97A1791D9F21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C5D84F6-268F-F643-9020-3A8FD84DC44A" name="Rebooking_Flights_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E326A5E6-8A76-ABFC-EB9D-B39C4C96084C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AFB3E66-5284-7464-887C-4929FEAB7E51" name="Rebooking_Reservation_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:36:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEA3F5C9-1C85-5D69-AD49-B0D2D768FAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

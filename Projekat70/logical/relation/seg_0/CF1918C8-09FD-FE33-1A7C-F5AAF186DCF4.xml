@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loyalty_Programs_Passengers_FK" directorySegmentName="seg_0" id="CF1918C8-09FD-FE33-1A7C-F5AAF186DCF4">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>528D3299-8481-F289-9BCE-8F10FFC18D2C</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>CAD4FC82-950B-8E37-4E75-4317D949C7B9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>476E246E-4A05-7CDF-1E4E-B78F24BF2682</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2EDB429B-011D-94D7-34ED-6820EC21E3B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

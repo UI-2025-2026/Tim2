@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reservation_Passenger_Reservation_FK" directorySegmentName="seg_0" id="7BC29DE7-A7A1-BEB6-B1EF-7985F7610A34">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>2AD9C222-29D8-CB65-CC0C-E2D02C66F9B6</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>A343D2A0-418D-7B8C-2A32-D8C3F2CFFECD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B215D784-0687-4B8C-DE1B-6577F37D96F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>602144DD-8A75-E627-62D0-0D457F200582</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

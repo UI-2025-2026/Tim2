@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E352F541-877E-F55B-B7BD-85CC4A35ADD8" name="Terminal">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>7206F74C-E8EE-C3A2-85D3-1627DA46DCBF</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9B2F306B-361E-1AAC-CAED-724D249BA176">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>90601124-5CAC-23B1-D79D-29A2857C7BF1</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="143BA973-3642-55E2-3A12-9AD30940B47C">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>68817335-7A64-33FE-9439-BCE29FB13FB6</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="ED74EF58-DFEB-FCB7-F240-2704E271F807">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>A3EDF06E-EE8B-9498-84E9-6EFFC4713341</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_gates" id="C42569F6-B267-F5CB-A2AC-332C095981BD">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>6D15FBED-F812-70A4-7E06-4857F7F211A2</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airports_id" id="98DD66E5-8F3A-95E8-64B7-66E6998E0A4F">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>A02A3694-BDFF-FF5E-C33C-F4F814ED4962</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B850AE4F-A9E5-7337-AAC5-4CCF3F3D7C86" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="791D934D-08C1-F33F-6BAA-DB868B45AF53" name="Terminal_PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>C2139B2D-1AF9-4A11-7037-FD529B27481B</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2F306B-361E-1AAC-CAED-724D249BA176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="934B36EE-AED4-8A1A-C587-A9AA37F7CE38" name="Terminal_Airports_FK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:29:00 UTC</createdTime>
+<generatorID>E5756AB5-FFD3-4F57-AEE5-7A0788AEA0CD</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DD66E5-8F3A-95E8-64B7-66E6998E0A4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

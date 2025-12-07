@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC4CDD92-20BF-5392-44DA-211D74223C77" name="Maintenance_Technician">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:43:02 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Technician_id" id="008C2CC0-AD29-3CDF-63A2-D62170AEE84E">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:44:08 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5209AE73-3BD6-42A2-4A06-63857D1928C5" referredColumn="9FA04DF2-E071-4154-13D7-4D0983C7557F"/>
+</associations>
+</Column>
+<Column name="Aircraft_Maintenance_id" id="60692E3B-54F4-6FC0-48B2-BD30DD4993F3">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:44:08 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD25906E-989C-5C81-26D3-F5617457EFB1" referredColumn="19CD32AD-2D63-4A3E-D03F-84CE922FE2BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86F9F487-6A21-79E5-09C9-534B54A8777B" name="Maintenance_Technician_Aircraft_Maintenance_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:44:08 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60692E3B-54F4-6FC0-48B2-BD30DD4993F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6776F92B-1062-40CA-F57D-3FE71BFA8F42" name="Maintenance_Technician_Technician_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-26 23:44:08 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="008C2CC0-AD29-3CDF-63A2-D62170AEE84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Maintenance_Tasks_Parts_FK" directorySegmentName="seg_0" id="484E4821-33ED-7C7B-13FA-43F181EE1128">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>A2428EF5-8C68-6C86-482C-1AEEFCAA6BD6</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>2FFC86CC-114E-B2AB-E371-9D77ECA611DB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14BEAA69-61C6-1B74-5037-4E498C01BE78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3271824-71E5-3928-8BFC-B6A22D7563C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

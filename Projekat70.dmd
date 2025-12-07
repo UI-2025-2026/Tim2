@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projekat70" id="194C8619-7D13-A7D8-3420-FE38A741933F" version="3.5">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-04 11:33:44 UTC</createdTime>
+<ownerDesignName>ProjekatV1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>194C8619-7D13-A7D8-3420-FE38A741933F</designId>
+</OSDM_Design>

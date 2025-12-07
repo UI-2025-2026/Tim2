@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Baggage_Baggage_type_FK" directorySegmentName="seg_0" id="9C742738-E139-5045-F5F7-63678170E575">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>08F57250-DE8B-02EE-3B48-DC8995279C29</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>1FC17937-6A4D-3BF8-2DCD-F77CF262E23F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>490261FB-D85A-84A8-A904-E2625AEB4280</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE157029-146E-61B7-7320-1CBD064461FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81FD22D4-3718-4B5F-7162-0E02C287AB38" name="Flight attendant">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:48:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="11129D00-A489-AEC4-5A32-7C4A95276DEF">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:52:36 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seniority level" id="F4379EB8-7FBE-472C-9B3C-CFA4724E461D">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:52:48 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2B52F93E-776C-2BFA-CBA6-344641337409">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 18:25:17 UTC</createdTime>
+<generatorID>6542CB6B-9754-A431-7162-917073875B2B</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<referedAttribute>4F16750B-C337-F9B7-7BD1-9D0A1E89F49D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2725135E-8B61-07AC-9AD6-C71B06212989" name="Flight attendant PK">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 17:52:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11129D00-A489-AEC4-5A32-7C4A95276DEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

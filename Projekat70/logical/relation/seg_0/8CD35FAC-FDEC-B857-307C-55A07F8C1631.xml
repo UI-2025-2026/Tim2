@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Payments_Reservation_FK" directorySegmentName="seg_0" id="8CD35FAC-FDEC-B857-307C-55A07F8C1631">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>257A243F-A24C-0C39-7CB9-14754D82FB77</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>A343D2A0-418D-7B8C-2A32-D8C3F2CFFECD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B215D784-0687-4B8C-DE1B-6577F37D96F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DF9A2F8-BFAC-FC55-0F11-D41B308AA227</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

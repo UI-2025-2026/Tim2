@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CC4A260-2DC0-1D11-06CE-F28DCE1BE006" name="Flight_Rates">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:18:27 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FAC4671A-F7F4-033A-9C76-7EA580F27FA8">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flight_id" id="FBFA99A3-257B-6C80-A613-F12E2F8B6DFE">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CE152B1-C3E4-C923-99A2-E23325401407" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="base_price" id="102EFFBA-B327-1541-D3A3-99B6AB47663B">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_from" id="91D1BAE1-41AD-EEE2-8A5E-75BBE1FF8591">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_to" id="53E4D185-6B79-AC1E-058C-53079E0D475F">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flight_rates_id" id="1E5E756B-712B-3B44-2579-75AC9BE1119E">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2788216B-4ADA-1608-1FDC-2688C8C3D8AB" referredColumn="20FDF8D6-D038-0E52-3AE0-1655266EAC9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ACC629B-8CD4-37EF-7745-DF809ABCD137" name="Flight_Rates_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:20:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAC4671A-F7F4-033A-9C76-7EA580F27FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BFC0274-1176-814E-A0C2-DF27B311E5EE" name="Flight_Rates_Flight_Rates_Type_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:21:59 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5E756B-712B-3B44-2579-75AC9BE1119E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B668A0E6-9141-6685-43FE-42BBAC9B74D5" name="Flight_Rates_Flights_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:22:20 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBFA99A3-257B-6C80-A613-F12E2F8B6DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

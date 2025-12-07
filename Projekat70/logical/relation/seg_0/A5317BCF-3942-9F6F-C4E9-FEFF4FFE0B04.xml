@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Aircrafts_Aircraft_Model_FK" directorySegmentName="seg_0" id="A5317BCF-3942-9F6F-C4E9-FEFF4FFE0B04">
+<createdBy>Win 11</createdBy>
+<createdTime>2025-11-02 16:57:49 UTC</createdTime>
+<generatorID>655AD8A6-C583-C081-7B30-A7FE667D3C71</generatorID>
+<ownerDesignName>Projekat70</ownerDesignName>
+<engineerTo>
+<item key="6A759D75-BBE5-DE80-5556-01771B179846" value="true"/>
+</engineerTo>
+<sourcePk>6AB5F3BE-DD97-5724-C565-20AD23199C1A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC4ACA90-B71D-B1DC-27FE-0960F78CCA0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B69E59B9-0965-781C-61F0-F6D7C207F20D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

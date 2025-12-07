@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7AE3C2B-CCAA-41E8-4179-A7678FCEB746" name="Feedback">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:43:24 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6A3C4127-0FF7-4A41-93A1-4799FDE2A11A">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passanger_id" id="7C5D31DA-C12A-A538-7B17-4F21954E3BEC">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78686D45-930E-5982-0DFE-F18AFD1A768D" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+<Column name="feedback_date" id="C2E5CD0F-FF8F-4B75-84C7-176E86FEE0AA">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="B3C189F9-6679-0DBE-2903-7F96977DE3B3">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="00ABECC6-C484-51BD-D3B6-7FF7BE6B08A0">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73F40F6E-8657-FC1E-74D9-011CEC0A5FCC" name="Feedback_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3C4127-0FF7-4A41-93A1-4799FDE2A11A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D17046D-CAD0-A042-6E78-DE14C95A3470" name="TABLE_70_Passengers_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:44:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5D31DA-C12A-A538-7B17-4F21954E3BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

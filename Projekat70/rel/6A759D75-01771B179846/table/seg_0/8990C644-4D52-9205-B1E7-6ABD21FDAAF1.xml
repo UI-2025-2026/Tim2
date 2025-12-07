@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8990C644-4D52-9205-B1E7-6ABD21FDAAF1" name="Reservation_History">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:12:29 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C3355269-43D1-AE27-B75C-7CDD50C60CEB">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="old_reservation_id" id="F06F9316-6312-4208-BA5E-1FA3DDCC9939">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B40BA9-DDEC-8E29-9D66-460D74B2099A" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</associations>
+</Column>
+<Column name="new_reservation_id" id="29455168-B9D8-948D-C71A-9A7947D4A41C">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BCB3C10-C710-3867-4655-7216F076A425" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AAFD832-00AB-2910-5EE1-2705A9C87208" name="Reservation_History_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3355269-43D1-AE27-B75C-7CDD50C60CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71D9B85D-5851-591B-8ED2-31C9473538D9" name="TABLE_64_Reservation_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06F9316-6312-4208-BA5E-1FA3DDCC9939"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="048172F4-B35D-D48B-2C5B-57F5EC388E08" name="Reservation_History_Reservation_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:14:00 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29455168-B9D8-948D-C71A-9A7947D4A41C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

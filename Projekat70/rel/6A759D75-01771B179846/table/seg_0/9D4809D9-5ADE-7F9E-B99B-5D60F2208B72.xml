@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D4809D9-5ADE-7F9E-B99B-5D60F2208B72" name="Delay_cause">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:32:27 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E10AC1CB-47E8-8879-648C-EF4B4B5048EF">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:33:11 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cause_name" id="00812CD3-FBBD-E075-16AD-BE0CA4A0CBF5">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:33:11 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="321FE6B4-49B7-0EA9-5927-382F223771F1">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:33:11 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30526ACB-BDCC-B1A6-4AE7-25E575CE7E94" name="Delay_cause_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-11-30 23:33:11 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E10AC1CB-47E8-8879-648C-EF4B4B5048EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

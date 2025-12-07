@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D84F45F7-31A2-931A-E828-3D17F208CFEA" containerWithKeyObject="2203D13D-4D49-2F53-7F40-38E8E348DE56" localFKIndex="CBE970D6-30DD-D418-DE01-7AB926473C52" name="FuelRecord_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-10-20 01:52:19 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<referredTableLongName>Flights</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F84DBA3-E7EB-F9F5-E198-7655233F1E6D</referredTableID>
+<keyObject>393CFB52-CA40-CF31-6109-5F8D38B38EF7</keyObject>
+<referredKeyID>393CFB52-CA40-CF31-6109-5F8D38B38EF7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

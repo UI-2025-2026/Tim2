@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC357418-4453-D20C-6855-2E4A79B0F6F8" name="Fule_Contracts">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:26:23 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_68</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F6E32E68-8ED6-14F4-E776-0527764F6A5E">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier_name" id="BB8E583E-B5E2-F61B-02E6-2FB0DEDF39EF">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="68624FD6-D1EA-7C78-CFE7-55D90488A42D">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="D624F092-3232-4251-8F34-8769ECB491CD">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price_per_liter" id="3E646DC8-E2B7-EE05-64DF-D0C7F4258702">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="airport_id" id="2AC1F8BE-4CA8-6639-C33C-9AFE5197FC90">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E6802A6-D496-0537-DC0C-DC9DA05E666F" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A01542A6-7604-8680-A969-7B47B2EE1F24" name="Fule_Contracts_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:17 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E32E68-8ED6-14F4-E776-0527764F6A5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FF115AD-44AA-FDB7-A53A-1C31FC10B0FE" name="Fule_Contracts_Airports_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-12-06 19:30:27 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC1F8BE-4CA8-6639-C33C-9AFE5197FC90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

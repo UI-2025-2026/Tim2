@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E93EADBE-DF56-6379-4035-6F2F8DC27815" name="Parts">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:31:39 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8062AF4-464C-31F6-E391-DE118D78D693">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8584071E-CE68-AEE5-D047-CE24D3784EE3">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="part_number" id="76A90B92-5754-3C25-DD72-BE4117451DE2">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manufacterer" id="2E9747BB-4E40-A529-F208-F4D095720DC0">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="380A7C18-517D-D7EA-62BA-04368BB26B4C">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight_kg" id="791D401F-5922-66C0-E514-86EAFD635112">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="B22A6250-5A0D-BE9A-E3D5-A333FF0F8D24">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parts_id" id="2ECFD930-FAD4-161E-C73E-E3CA7B451C48">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AD60818-A57A-118E-A559-C5A767487D45" referredColumn="E8062AF4-464C-31F6-E391-DE118D78D693"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B6E1CC-E322-2FD4-73F5-1D5522635765" name="Parts_PK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8062AF4-464C-31F6-E391-DE118D78D693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C343BE8-F334-5E25-5805-D2DA297F0526" name="Parts_Parts_FK">
+<createdBy>User</createdBy>
+<createdTime>2025-10-20 00:35:27 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ECFD930-FAD4-161E-C73E-E3CA7B451C48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
