@@ -27,9 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A4B40BA9-DDEC-8E29-9D66-460D74B2099A" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
-</associations>
 </Column>
 <Column name="new_reservation_id" id="29455168-B9D8-948D-C71A-9A7947D4A41C">
 <createdBy>User</createdBy>
@@ -40,8 +37,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rebooking_id" id="A1CB95D8-69E0-423B-26B6-1EAB2B1D9F86">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:53:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6BCB3C10-C710-3867-4655-7216F076A425" referredColumn="3E16529A-0C8F-C588-84E5-0E8C904FA3B8"/>
+<colAssociation fkAssociation="64E9911F-E9C5-21CD-EAF1-B36608030777" referredColumn="3BD198C8-A840-C616-8F18-D60DD6D33907"/>
+</associations>
+</Column>
+<Column name="Rebooking_id1" id="30C92B6C-F2F9-5DA5-4E8A-1D5A1EF6E387">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:53:22 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A52EAFAE-6F93-7FBE-CA2B-B75E97ACEBD5" referredColumn="3BD198C8-A840-C616-8F18-D60DD6D33907"/>
 </associations>
 </Column>
 </columns>
@@ -57,24 +79,24 @@
 <colUsage columnID="C3355269-43D1-AE27-B75C-7CDD50C60CEB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="71D9B85D-5851-591B-8ED2-31C9473538D9" name="TABLE_64_Reservation_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<ind_PK_UK id="DFAD34E4-EB97-4362-895D-FA8A4A2B23B8" name="Reservation_History_Rebooking_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:53:18 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F06F9316-6312-4208-BA5E-1FA3DDCC9939"/>
+<colUsage columnID="A1CB95D8-69E0-423B-26B6-1EAB2B1D9F86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="048172F4-B35D-D48B-2C5B-57F5EC388E08" name="Reservation_History_Reservation_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:14:00 UTC</createdTime>
+<ind_PK_UK id="74F2CFC4-C5B6-613F-23CD-2B739E913C99" name="Reservation_History_Rebooking_FKv2">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:53:22 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="29455168-B9D8-948D-C71A-9A7947D4A41C"/>
+<colUsage columnID="30C92B6C-F2F9-5DA5-4E8A-1D5A1EF6E387"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="391E229E-A4DD-0B31-EA89-B22344ECEA27" referredColumn="8A96ACB8-115D-6E26-E7A5-3C9BB9D2C3FF"/>
 </associations>
 </Column>
-<Column name="departure_time" id="99C78250-AC4B-1AE0-B8BF-2034191234E9">
+<Column name="expected_departure_time" id="99C78250-AC4B-1AE0-B8BF-2034191234E9">
 <createdBy>User</createdBy>
 <createdTime>2025-10-07 12:39:11 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
@@ -57,7 +57,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="arrival_time" id="985B4E7B-8D22-6BEA-FF7C-A3E2A36A12D5">
+<Column name="expected_arrival_time" id="985B4E7B-8D22-6BEA-FF7C-A3E2A36A12D5">
 <createdBy>User</createdBy>
 <createdTime>2025-10-07 12:39:11 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
@@ -104,9 +104,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C2779055-8700-E946-76EC-FDE6E325A6CC" referredColumn="940A0DB9-CE8E-50AF-D0B8-277578BA1836"/>
-</associations>
 </Column>
 <Column name="actual_departurel_time" id="AFEEF3DC-3B36-C995-8D49-DDE1EF216967">
 <createdBy>User</createdBy>
@@ -170,16 +167,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DD871E28-5945-B026-4034-105569996F0A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="16790738-3300-5637-9215-74B02A9D9B0A" name="Flights_Flight_status_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 18:34:01 UTC</createdTime>
-<ownerDesignName>Projekat70</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7E598A8A-34D4-B639-EC5C-12F48EADEE66"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

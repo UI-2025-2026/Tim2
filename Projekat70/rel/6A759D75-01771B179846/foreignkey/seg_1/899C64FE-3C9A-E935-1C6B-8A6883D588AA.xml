@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="A4B40BA9-DDEC-8E29-9D66-460D74B2099A" containerWithKeyObject="8990C644-4D52-9205-B1E7-6ABD21FDAAF1" localFKIndex="71D9B85D-5851-591B-8ED2-31C9473538D9" name="TABLE_64_Reservation_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:13:51 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="899C64FE-3C9A-E935-1C6B-8A6883D588AA" containerWithKeyObject="A93B5A32-4D6D-6C0C-06EC-67CC05003633" localFKIndex="45314F09-A606-1A16-828A-BA39685A68D2" name="Rebooking_Reservation_FKv2">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:42:50 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <referredTableLongName>Reservation</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

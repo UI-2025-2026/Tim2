@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5047C704-E412-0F62-ED1F-2CEB1BE289D0" containerWithKeyObject="A93B5A32-4D6D-6C0C-06EC-67CC05003633" localFKIndex="4CDFF230-A9C6-4EF9-0E88-A81722C74AEC" name="Rebooking_Flights_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-11-30 23:36:45 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="9BF3D841-80F9-F380-C7B9-D35CFBFFA03D" containerWithKeyObject="05979E66-08AE-193E-0F20-219354E3D082" localFKIndex="39112128-2833-6813-929A-71FE09DB7936" name="FlightStatus_Flights_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:50:28 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <referredTableLongName>Flights</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

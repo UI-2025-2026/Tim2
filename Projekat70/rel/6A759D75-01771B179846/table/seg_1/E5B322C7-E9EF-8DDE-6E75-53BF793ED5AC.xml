@@ -1,15 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC794AF-D553-9AB6-6938-6481CD10E1F1" name="Employee_status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E5B322C7-E9EF-8DDE-6E75-53BF793ED5AC" name="Gender">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:45:07 UTC</createdTime>
+<createdTime>2025-12-21 21:59:53 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_80</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC">
+<Column name="id" id="ADA27F31-FEE6-6C56-FA8D-04F46EE9F26B">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:00:13 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -17,28 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="05368A1D-2369-76E4-0B5C-5ABEF6CB7DBD">
+<Column name="name" id="93A6A592-FE20-5568-9241-3D69DBD17AF4">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:00:13 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53B4FD0E-5543-3D5C-5CCF-DE7F5C640164" name="Employee_status_PK">
+<ind_PK_UK id="8128A9C8-CD72-DD12-391A-B3FB7C4836F0" name="Gender_PK">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:01:06 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC"/>
+<colUsage columnID="ADA27F31-FEE6-6C56-FA8D-04F46EE9F26B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

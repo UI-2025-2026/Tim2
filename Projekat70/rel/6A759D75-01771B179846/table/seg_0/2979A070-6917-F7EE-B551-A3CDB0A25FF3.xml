@@ -18,17 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="disruption_type" id="11B719C2-5CDC-7FA3-9C9F-E7A1A81CEE88">
-<createdBy>User</createdBy>
-<createdTime>2025-11-30 23:34:42 UTC</createdTime>
-<ownerDesignName>Projekat70</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="delay_time_minutes" id="2E4D2A81-4EDF-4003-39C0-533E4CE64822">
 <createdBy>User</createdBy>
 <createdTime>2025-11-30 23:34:42 UTC</createdTime>
@@ -90,6 +79,19 @@
 <colAssociation fkAssociation="C178B86C-BD17-E3A0-090A-48D27C2E3059" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
 </associations>
 </Column>
+<Column name="Disruption_type_id" id="A86EE99A-163C-4643-4C24-8C3FCCF51BAB">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:51:20 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4ED1C51-C8F3-9D21-4A49-BD6D07604D8C" referredColumn="E6E64DF1-7212-AB6B-758E-58136252FCA9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E40E08EE-54DE-FA85-4140-1E02B2ED694F" name="Flight_disruption_PK">
@@ -121,6 +123,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A2C7C99-7D2C-0B94-58A3-7DCE3FCC1CD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="818211FE-F504-CF39-FFCA-15371EE5C3AE" name="Flight_disruption_Disruption_type_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:51:20 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A86EE99A-163C-4643-4C24-8C3FCCF51BAB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

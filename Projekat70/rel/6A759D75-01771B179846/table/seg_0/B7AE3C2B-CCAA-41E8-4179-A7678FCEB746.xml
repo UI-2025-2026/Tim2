@@ -62,6 +62,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Flights_id" id="2CBFF45A-54F4-689F-52D1-8DE73D6713B9">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:58:39 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A35AC121-DBAE-825E-4AD4-84F7E9A35A88" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="73F40F6E-8657-FC1E-74D9-011CEC0A5FCC" name="Feedback_PK">
@@ -83,6 +97,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7C5D31DA-C12A-A538-7B17-4F21954E3BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4AAF104-8A09-2AE2-D2B0-1EB173C491CF" name="Feedback_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:58:39 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBFF45A-54F4-689F-52D1-8DE73D6713B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

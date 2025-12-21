@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="AA4B475F-92FF-42FE-53FA-70C4C1C03818" containerWithKeyObject="205551D6-6989-33F7-5A74-3B919C094A47" localFKIndex="5197B74C-716B-7D0F-348B-07FBA3385385" name="SecurityIncident_IncidentType_Security_incident_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:31:06 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<referredTableLongName>Security_incident</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67C5C1C-F3C1-549B-21D6-5DC19DB668F8</referredTableID>
+<keyObject>3D178E64-36C3-32FF-042A-05F1F04D61E4</keyObject>
+<referredKeyID>3D178E64-36C3-32FF-042A-05F1F04D61E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

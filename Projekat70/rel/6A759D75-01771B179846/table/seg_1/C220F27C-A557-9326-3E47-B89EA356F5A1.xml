@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="C220F27C-A557-9326-3E47-B89EA356F5A1" name="Special_assistances_ype">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:13:48 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BE684260-628A-F607-460C-8FE517A4D74E">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:15:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F245B928-E314-57F0-B98E-667065E761FB">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:15:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Special_assistance_request_Passengers_id" id="8F8763CC-6C98-4E96-AB22-64C98FFFE488">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17B62003-BFC4-D137-E46E-37F1A7445408" referredColumn="ACDF3B1F-B2AB-3869-9631-7C901D48105F"/>
+</associations>
+</Column>
+<Column name="Special_assistance_request_Flights_id" id="54BF3F77-1AFC-7A27-19D7-C7E64B74ED19">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17B62003-BFC4-D137-E46E-37F1A7445408" referredColumn="CD7D962E-96AF-3BCF-8774-6CA1AE77C60C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="986C318F-6499-1516-DAA3-4556BE1CEF46" name="Special_assistances_type_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:15:15 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE684260-628A-F607-460C-8FE517A4D74E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4D834E-8BB4-0A4B-A645-95E178D15C68" name="Special_assistances_ype_Special_assistance_request_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8763CC-6C98-4E96-AB22-64C98FFFE488"/>
+<colUsage columnID="54BF3F77-1AFC-7A27-19D7-C7E64B74ED19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

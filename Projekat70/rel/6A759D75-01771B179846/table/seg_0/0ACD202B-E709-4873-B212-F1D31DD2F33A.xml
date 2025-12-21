@@ -119,6 +119,20 @@
 <colAssociation fkAssociation="284D8673-1A92-DAE8-FD71-D705193E2E6F" referredColumn="FAC4671A-F7F4-033A-9C76-7EA580F27FA8"/>
 </associations>
 </Column>
+<Column name="Gender_id" id="E41FDCD2-D0DF-88DC-B8ED-B3BEAB096DF9">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:01:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAE56BDF-D1D1-F305-3DF6-FFD5552B4D65" referredColumn="ADA27F31-FEE6-6C56-FA8D-04F46EE9F26B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AC7B7F1A-9E2E-66ED-CC0F-32EAF70C0B56" name="Payments_PK">
@@ -180,6 +194,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="92DB0785-DBBB-008F-01A3-06AFC0F8642A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2776EE80-FEF0-7A0E-ED66-18986E90E3FD" name="Payments_Gender_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:01:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41FDCD2-D0DF-88DC-B8ED-B3BEAB096DF9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

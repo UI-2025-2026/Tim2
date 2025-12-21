@@ -77,6 +77,20 @@
 <colAssociation fkAssociation="655AD8A6-C583-C081-7B30-A7FE667D3C71" referredColumn="85BA6CBD-26B4-3A3E-1563-8D90BF338A8F"/>
 </associations>
 </Column>
+<Column name="Country_id" id="E54CBCDE-ED3C-3552-BB58-0E31A7C4987A">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:20:56 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="554B215B-FAD4-D53C-021E-B4F624D6D8D8" referredColumn="8A6155AB-86CE-223F-C441-11F04A9F5AA7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4B17989B-2791-31B8-8E68-E79A5136292A" name="Aircrafts_PK">
@@ -108,6 +122,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1A66166D-2F47-88E0-31C5-3DBFA544B6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4DA566F-0F29-CDFC-0B88-58B955EBFEF1" name="Aircrafts_Country_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:20:56 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E54CBCDE-ED3C-3552-BB58-0E31A7C4987A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

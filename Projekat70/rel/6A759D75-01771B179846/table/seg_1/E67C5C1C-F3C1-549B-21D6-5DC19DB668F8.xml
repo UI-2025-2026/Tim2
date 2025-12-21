@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E67C5C1C-F3C1-549B-21D6-5DC19DB668F8" name="Security_incident">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:26:26 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="83324D45-BBD0-EB62-4959-DF3B579079F3">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:27:19 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="43DE26C3-FBCF-E4B6-00D4-3770305176E8">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:29:55 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flights_id" id="26EB1C6B-1FFA-6035-C57F-D8752E919A2F">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:32:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88789825-4247-EBA7-6BFF-802F039592ED" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="Airports_id" id="4E836288-2591-17A6-E470-7A0DD2021406">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:33:32 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B55CCF4-E0EF-514E-23B1-6F20B7A1371B" referredColumn="8D8349C8-446F-909F-E6F9-2878F31E4DDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D178E64-36C3-32FF-042A-05F1F04D61E4" name="Security_incident_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:27:19 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83324D45-BBD0-EB62-4959-DF3B579079F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96C93C8E-9046-5E05-D532-C34D3385C3FD" name="Security_incident_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:32:30 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26EB1C6B-1FFA-6035-C57F-D8752E919A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D057A4A-D7B0-0853-94D5-8278B7F11B46" name="Security_incident_Airports_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:33:32 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E836288-2591-17A6-E470-7A0DD2021406"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

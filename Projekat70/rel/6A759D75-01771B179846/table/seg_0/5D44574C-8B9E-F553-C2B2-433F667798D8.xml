@@ -54,29 +54,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Severity" id="77295832-03B1-6338-3603-2664BC084617">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:51:10 UTC</createdTime>
-<ownerDesignName>Projekat70</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="status" id="6B0FB010-955A-1F65-9A6B-B8477AD4D8A3">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:51:10 UTC</createdTime>
-<ownerDesignName>Projekat70</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="resolution_date" id="CF141DF9-7AB7-7FAC-A72E-B2525898E9BE">
 <createdBy>User</createdBy>
 <createdTime>2025-12-06 19:51:10 UTC</createdTime>
@@ -87,6 +64,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Severity_Type_id" id="19AAEDE9-389D-C3C9-C7A2-1F7982F860B3">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:47:36 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23E8BA99-C477-C11C-F4A0-5ACF7842BECE" referredColumn="54EA4865-BF01-2A13-7A29-556A1BA89369"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -119,6 +110,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8049A52C-BC7D-B40A-5B10-E5C866E4646A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82856EAD-651B-AF88-1C8F-3DD72918246B" name="Complaints_Severity_Type_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:47:36 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19AAEDE9-389D-C3C9-C7A2-1F7982F860B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

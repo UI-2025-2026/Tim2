@@ -92,6 +92,20 @@
 <colAssociation fkAssociation="2D6204AF-6AB4-C8A1-16C2-631AA45A8A5B" referredColumn="D4630C4A-FFD4-26F0-AF24-3B13F912C59F"/>
 </associations>
 </Column>
+<Column name="Gender_id" id="53F5A9D8-33E8-1F52-619E-0E1CCC490DF5">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:01:10 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65134093-FB55-AF40-8BEF-83A8563CFF8D" referredColumn="ADA27F31-FEE6-6C56-FA8D-04F46EE9F26B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1D79F354-7236-9C5F-ABD8-23EED7606F79" name="Employees_PK">
@@ -133,6 +147,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="867F41B8-29A8-3E0B-FFCC-6D513337FB02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C49B227-4D0D-6442-9E17-2F96A8A04478" name="Employees_Gender_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:01:10 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F5A9D8-33E8-1F52-619E-0E1CCC490DF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="26DC0D41-BB7D-574B-8310-1ADF2F19036F" name="Special_assistance_request">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:16:14 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Passengers_id" id="ACDF3B1F-B2AB-3869-9631-7C901D48105F">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7E9C739-CB6D-0EF3-9C74-7CA3AD2CC368" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+<Column name="Flights_id" id="CD7D962E-96AF-3BCF-8774-6CA1AE77C60C">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:31 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2544F9D6-C2D0-5F3B-C371-791093B97A6B" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3F8951E-7F32-E5B3-C2CD-68A12504651E" name="Special_assistance_request_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:45 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACDF3B1F-B2AB-3869-9631-7C901D48105F"/>
+<colUsage columnID="CD7D962E-96AF-3BCF-8774-6CA1AE77C60C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24539831-F6BB-C848-16FD-F15FB78F2C78" name="Special_assistance_request_Passengers_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACDF3B1F-B2AB-3869-9631-7C901D48105F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E872DD84-B32D-AFD9-E10A-BFE712DB2224" name="Special_assistance_request_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:20:31 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD7D962E-96AF-3BCF-8774-6CA1AE77C60C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

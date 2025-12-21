@@ -1,15 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC794AF-D553-9AB6-6938-6481CD10E1F1" name="Employee_status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F87F99BD-7BC1-5BC3-35A3-E24AC8608786" name="Permit_type">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:45:07 UTC</createdTime>
+<createdTime>2025-12-21 21:41:08 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC">
+<Column name="id" id="DAE01D22-094A-560B-344C-6624FC4CED19">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:55:45 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -17,28 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="05368A1D-2369-76E4-0B5C-5ABEF6CB7DBD">
+<Column name="name" id="FCDD9E06-66D3-C495-0CF9-8D95D856FA13">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:55:45 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53B4FD0E-5543-3D5C-5CCF-DE7F5C640164" name="Employee_status_PK">
+<ind_PK_UK id="30DAB879-8F1F-540B-BA2E-40ECB63E9FD8" name="Permit_type_PK">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:55:45 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC"/>
+<colUsage columnID="DAE01D22-094A-560B-344C-6624FC4CED19"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,15 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC794AF-D553-9AB6-6938-6481CD10E1F1" name="Employee_status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E741CAB1-991B-189A-67C3-1BB9B145C378" name="Incident_type">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:45:07 UTC</createdTime>
+<createdTime>2025-12-21 21:28:50 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_77</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC">
+<Column name="Id" id="78B7C377-D1B6-5AF0-24AF-DE9856650886">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:29:30 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -17,28 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="05368A1D-2369-76E4-0B5C-5ABEF6CB7DBD">
+<Column name="name" id="C49134D2-00E3-F1A3-1C45-85C7CF3B34E0">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:29:30 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53B4FD0E-5543-3D5C-5CCF-DE7F5C640164" name="Employee_status_PK">
+<ind_PK_UK id="18A10AB7-D689-5D96-167B-460AE6E8FB4F" name="Incident_type_PK">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 21:29:30 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC"/>
+<colUsage columnID="78B7C377-D1B6-5AF0-24AF-DE9856650886"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4841C5B7-1E1C-5021-94F5-1AEFE5FFC9ED" containerWithKeyObject="411231DC-2075-0158-DDF3-45A1EAFC0796" localFKIndex="5B8241FE-95AF-301C-A78C-53AAD1097A96" name="Compalint_status_history_Complaint_status_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 22:43:24 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<referredTableLongName>Complaint_status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07830419-3CB4-F5BD-54A8-1130F59BCD40</referredTableID>
+<keyObject>CABEFC07-8EDB-9F80-5DD4-28D6FD0EDB44</keyObject>
+<referredKeyID>CABEFC07-8EDB-9F80-5DD4-28D6FD0EDB44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2DAC3987-EBEC-7CC6-1E39-A1764B322336" name="SecurityIncident_Passengers">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:38:48 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_79</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Security_incident_id" id="C4C0FDB7-1C7A-94C1-6B1C-50B00650E092">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:39:29 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DBED81B-56D0-382B-1F23-50305B62D3D8" referredColumn="83324D45-BBD0-EB62-4959-DF3B579079F3"/>
+</associations>
+</Column>
+<Column name="Passengers_id" id="48F48CDF-63B8-F752-F649-7F11BBF07267">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:39:33 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="863D2C27-4500-4E13-5CE5-203249F214CB" referredColumn="1EEB7808-D5BE-B2BD-1E5D-72659C43FE25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFD9211D-B7FD-43A2-8A30-B69BE5815910" name="SecurityIncident_Passengers_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:39:59 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C0FDB7-1C7A-94C1-6B1C-50B00650E092"/>
+<colUsage columnID="48F48CDF-63B8-F752-F649-7F11BBF07267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2EF3B76-14B4-E1FC-91D1-745BAE22704B" name="SecurityIncident_Passengers_Security_incident_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:39:29 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C0FDB7-1C7A-94C1-6B1C-50B00650E092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E45C139-3A33-14C1-1E03-50DA64A63B48" name="SecurityIncident_Passengers_Passengers_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:39:33 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48F48CDF-63B8-F752-F649-7F11BBF07267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,15 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC794AF-D553-9AB6-6938-6481CD10E1F1" name="Employee_status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2A6373C7-B4C0-6201-7A61-7C1E56956774" name="Country">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:45:07 UTC</createdTime>
+<createdTime>2025-12-21 22:12:45 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_82</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC">
+<Column name="id" id="8A6155AB-86CE-223F-C441-11F04A9F5AA7">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:13:54 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -17,28 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="05368A1D-2369-76E4-0B5C-5ABEF6CB7DBD">
+<Column name="name" id="4D82DA6D-5EE2-ED8E-C279-8CEED9947CC2">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:13:54 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53B4FD0E-5543-3D5C-5CCF-DE7F5C640164" name="Employee_status_PK">
+<ind_PK_UK id="E96966B8-C793-E47E-D19E-D2B6BADA62C5" name="Country_PK">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:13:54 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC"/>
+<colUsage columnID="8A6155AB-86CE-223F-C441-11F04A9F5AA7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="05979E66-08AE-193E-0F20-219354E3D082" name="FlightStatus_Flights">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:47:03 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Flight_status_id" id="A452F696-ED58-E08A-7BD6-0A1F0BB6F444">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:47:20 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F0DBB16-036D-4B7F-4F58-81479D378733" referredColumn="940A0DB9-CE8E-50AF-D0B8-277578BA1836"/>
+</associations>
+</Column>
+<Column name="Flights_id" id="BAF12911-976E-7BEC-444C-C8D85646954C">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:47:26 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF3D841-80F9-F380-C7B9-D35CFBFFA03D" referredColumn="E561A507-C305-6288-001E-3878DC09369C"/>
+</associations>
+</Column>
+<Column name="valid_from" id="233B0462-887C-410D-F965-2F5400F0D4E8">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:51:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_to" id="7C4B4C89-5040-07BD-4918-DE8A0BC9B919">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:51:54 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2909DCDC-CC67-EE37-E1BB-D42507688515" name="FlightStatus_Flights_PK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:47:49 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A452F696-ED58-E08A-7BD6-0A1F0BB6F444"/>
+<colUsage columnID="BAF12911-976E-7BEC-444C-C8D85646954C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E2947C6-1AA0-846C-984C-5A1D6D464022" name="FlightStatus_Flights_Flight_status_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:50:23 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A452F696-ED58-E08A-7BD6-0A1F0BB6F444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39112128-2833-6813-929A-71FE09DB7936" name="FlightStatus_Flights_Flights_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:50:28 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF12911-976E-7BEC-444C-C8D85646954C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

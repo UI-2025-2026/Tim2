@@ -122,8 +122,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Permit_type_id" id="19EE0604-07FD-5F9A-7E4D-26BF83170317">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:56:13 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="92AFBFDB-0BD5-6C48-E99C-F38693B73089" referredColumn="20CC1DBC-D057-0B3F-EEC4-9D1FC596B3E9"/>
+<colAssociation fkAssociation="D9AFB9A4-C3E1-7C6D-A880-64CDBFFB6EFD" referredColumn="DAE01D22-094A-560B-344C-6624FC4CED19"/>
 </associations>
 </Column>
 </columns>
@@ -169,14 +180,14 @@
 <colUsage columnID="344DF9D9-545D-8104-04BF-499800B89ECF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E2586B1B-4DEE-AD46-6C31-9C22BAEF360E" name="Permits_Permit_Groups_FK">
-<createdBy>User</createdBy>
-<createdTime>2025-12-06 19:35:56 UTC</createdTime>
+<ind_PK_UK id="5118091F-44C3-60CD-5803-92EA5EE5A7B7" name="Permits_Permit_type_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 21:56:13 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C6F4AC79-1D5B-0806-FFF1-FBE23392194E"/>
+<colUsage columnID="19EE0604-07FD-5F9A-7E4D-26BF83170317"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

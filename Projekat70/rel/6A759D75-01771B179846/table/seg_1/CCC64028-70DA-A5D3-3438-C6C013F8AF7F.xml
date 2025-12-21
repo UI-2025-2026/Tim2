@@ -1,44 +1,44 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC794AF-D553-9AB6-6938-6481CD10E1F1" name="Employee_status">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="CCC64028-70DA-A5D3-3438-C6C013F8AF7F" name="Disruption_type">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:45:07 UTC</createdTime>
+<createdTime>2025-12-21 22:49:55 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
+<ordsAlias>table_88</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC">
+<Column name="id" id="E6E64DF1-7212-AB6B-758E-58136252FCA9">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:50:21 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="05368A1D-2369-76E4-0B5C-5ABEF6CB7DBD">
+<Column name="name" id="F6524B99-8032-8F9A-FDE5-6A6460752E2B">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:50:21 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53B4FD0E-5543-3D5C-5CCF-DE7F5C640164" name="Employee_status_PK">
+<ind_PK_UK id="7C5A9004-0191-649D-656A-5EEF94C59B6B" name="Disruption_type_PK">
 <createdBy>viden</createdBy>
-<createdTime>2025-10-27 01:46:15 UTC</createdTime>
+<createdTime>2025-12-21 22:50:21 UTC</createdTime>
 <ownerDesignName>Projekat70</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92EAE3F-2EDC-1FAB-CA6C-A26351929EBC"/>
+<colUsage columnID="E6E64DF1-7212-AB6B-758E-58136252FCA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

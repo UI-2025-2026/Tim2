@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="64E9911F-E9C5-21CD-EAF1-B36608030777" containerWithKeyObject="8990C644-4D52-9205-B1E7-6ABD21FDAAF1" localFKIndex="DFAD34E4-EB97-4362-895D-FA8A4A2B23B8" name="Reservation_History_Rebooking_FK">
+<createdBy>viden</createdBy>
+<createdTime>2025-12-21 20:53:18 UTC</createdTime>
+<ownerDesignName>Projekat70</ownerDesignName>
+<referredTableLongName>Rebooking</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A93B5A32-4D6D-6C0C-06EC-67CC05003633</referredTableID>
+<keyObject>37384173-E3F7-96FB-E077-36CDD136447F</keyObject>
+<referredKeyID>37384173-E3F7-96FB-E077-36CDD136447F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
